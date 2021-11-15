@@ -1,105 +1,81 @@
 .NavBar {
   min-height: 50px;
   margin: auto;
-  background: whitesmoke;
+  background: rgb(36, 36, 36);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .NavButton {
-  background: rgb(212, 154, 154);
-  color: rgb(170, 199, 238);
-  border: white 1px solid;
-  border-radius: 20px;
-  min-height: 35px;
-  min-width: 60px;
+  background: whitesmoke;
+  color: black;
+  border: black 1px solid;
+  border-radius: 0.3rem;
+  min-height: 30px;
+  min-width: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   font-size: medium;
-  padding: 0.2rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
+.NavButton:hover {
+  background-color: rgb(122, 169, 230);
+}
 .main {
   min-height: 100vh;
-  background: whitesmoke;
+  min-width: 100vw;
+  background: rgb(36,36,36);
 }
 .section {
   padding: 1rem;
 }
 .Home-left {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: calc(15px + 2vmin);
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
   font-weight: 200;
-  padding-left: 0.5rem;
-  margin-bottom: 1rem;
 }
 .Home-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: calc(15px + 2vmin);
+  font-size: calc(10px + 2vmin);
   font-weight: 200;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
+  color: whitesmoke;
 }
 .Home-right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: calc(15px + 2vmin);
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
   font-weight: 200;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
 }
 .link {
-  font-size: calc(25px + 2vmin);
-  color: rgb(122, 169, 230);
+  color: whitesmoke;
+  font-size: calc(12px + 2vmin);
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
 }
-.paragraph-1 {
+.link:hover {
+  background-color: rgb(122, 169, 230);
+}
+.paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: calc(25px + 2vmin);
+  font-size: calc(12px + 2vmin);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   border: white;
-  border-radius: 20px;
-  color: rgb(212, 154, 154);
-  background-color: rgb(170, 199, 238);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-bottom: 5px;
+  border-radius: 0.3rem;
+  color: black;
+  background-color: whitesmoke;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
-.paragraph-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: calc(25px + 2vmin);
-  text-decoration: none;
-  font-weight: 400;
-  border: white;
-  border-radius: 20px;
-  color: rgb(170, 199, 238);
-  background-color: rgb(212, 154, 154);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-bottom: 5px;
-}
+/* .bump-right {
+  margin-left: 4rem;
+} */
 /* .arrow-left {
 
 } */
