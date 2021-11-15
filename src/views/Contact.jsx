@@ -19,9 +19,9 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="Home text-center mt-2">or shoot me an email</div>
-                <div className="Home text-center"><a className="link" href="mailto:cdeloach16@gmail.com">cdeloach16@gmail.com</a></div>
+                <div className="text-center"><a className="link" href="mailto:cdeloach16@gmail.com">cdeloach16@gmail.com</a></div>
                 <div className="Home text-center mt-4">additionally, if you're a chess fan, challenge me below</div>
-                <div className="Home text-center"><a className="link" href="http://www.chess.com/member/Slap-a-tha-Bass" target="_blank" rel="noopener noreferrer">Slap-a-tha-Bass</a></div>
+                <div className="text-center"><a className="link" href="http://www.chess.com/member/Slap-a-tha-Bass" target="_blank" rel="noopener noreferrer">Slap-a-tha-Bass</a></div>
             </section>
         </main>
     )

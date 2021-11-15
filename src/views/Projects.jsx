@@ -10,8 +10,9 @@ const Projects = () => {
                     </div>
                     <a className="link mt-2" href="http://cc-coffee.herokuapp.com" target="_blank" rel="noopener noreferrer">c^2 coffee</a>
                     <div className="Home mt-2">
-                        more projects can be seen on my <a className="link" href="http://www.github.com/Slap-a-tha-Bass" target="_blank" rel="noopener noreferrer">github</a> account
-                    </div>
+                        more projects can be seen on my
+                    </div> 
+                    <a className="link" href="http://www.github.com/Slap-a-tha-Bass" target="_blank" rel="noopener noreferrer">github</a>
                 </div>
             </section>
         </main>
