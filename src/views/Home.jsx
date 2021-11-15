@@ -2,10 +2,14 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <main className="container main">
-            <section className="row d-flex justify-content-center">
-                <div className="col-md-3 pb-3">
-                    <div className="Home text-center mt-2">
+        <main className="bg-light">
+                    <div className="Home display-3 d-flex">
+                        Hi, my name is  <p className="Name"> Corey DeLoach</p> 
+                    </div>
+                    <div className="Home display-3">
+                        I am a Full-Stack Software Developer
+                    </div>
+                    {/* <div className="Home text-center mt-2">
                         my name is <p className="para-name">corey deloach</p>
                     </div>
                     <div className="Home text-center mt-3">
@@ -19,9 +23,7 @@ const Home = () => {
                     </div>
                     <div className="Home text-center mt-3">
                         i thank <a className="link my-2 pt-1" target="_blank" rel="noreferrer" href="https://www.covalence.io">Covalence</a> for their help and mentorship
-                    </div>
-                </div>
-            </section>
+                    </div> */}
         </main>
     )
 }

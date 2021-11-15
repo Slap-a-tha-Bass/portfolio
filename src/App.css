@@ -1,15 +1,14 @@
 .NavBar {
-  min-height: 50px;
+  min-height: 10rem;
   margin: auto;
-  background: rgb(36, 36, 36);
+  background: rgb(245, 245, 245);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: rgb(245,245,245);
 }
 .NavButton {
-  background: rgb(61, 61, 61);
-  color: whitesmoke;
-  border: rgb(110,110,110) 3px inset;
+  color: black;
   border-radius: 0.3rem;
   min-height: 30px;
   min-width: 65px;
@@ -18,33 +17,43 @@
   justify-content: center;
   text-decoration: none;
   font-weight: 300;
-  font-size: medium;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  font-size: large;
   padding: 0.2rem;
 }
 .NavButton:hover {
-  background-color: rgb(122, 169, 230);
-}
-.main {
-  min-height: 100vh;
-  min-width: 100vw;
-  background: rgb(36,36,36);
-}
-.section {
-  padding: 1rem;
+  animation-name: nav;
+  animation-duration: 1s;
+  text-decoration: none;
+  color: black
 }
 .Home {
-  font-size: calc(10px + 2vmin);
-  color: whitesmoke;
-  font-weight: 200;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  background-color: rgb(245,245,245);
+}
+@keyframes nav {
+  from{background-color: black}
+  to{background-color: rgb(245,245,245)}
+  from{color:rgb(245, 245, 245)}
+  to{color:black}
+}
+.Name {
+  color:rgb(122, 169, 230);
+  padding-left: 0.5rem;
+}
+.Project {
+  font-size: large;
+  background-color: rgb(245,245,245);
+  padding-left: 2rem;
+}
+.bgcolor {
+  background-color: rgb(245, 245, 245);
 }
 .link {
-  color: whitesmoke;
+  color: black;
   font-size: calc(12px + 2vmin);
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
+  padding-left: 5rem;
+  padding-right: 5rem;
   text-decoration: none;
 }
 .link:hover {

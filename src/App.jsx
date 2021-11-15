@@ -4,12 +4,14 @@ import Home from './views/Home';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
 import NavBar from './components/NavBar';
+import RootLayout from './components/RootLayout';
 import './App.css';
 
 
 const App = () => {
       return (
         <BrowserRouter>
+          <RootLayout>
           <NavBar />
             <Switch>
               <Route exact path = '/'>
@@ -22,6 +24,7 @@ const App = () => {
                 <Contact />
               </Route>
             </Switch>
+            </RootLayout>
         </BrowserRouter>
       );
 };
