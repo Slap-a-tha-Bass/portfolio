@@ -4,22 +4,24 @@ const Projects = () => {
 
     return (  
         <>
-                <h1 className="Projects text-center">Projects</h1>
+                <h1 className="Projects text-center display-4">Projects</h1>
                 <div className="d-flex justify-content-center">
                     <div className="card border rounded shadow">
-                        <h2 className="card-header">c^2 coffee</h2>
-                        <div className="card-body">
+                        <div className="card-header card-header-info text-light text-center  h2">c^2 coffee</div>
+                        <div className="card-body card-header-info">
                             <div className="card-text">
                                 <ul className="list-group">
-                                    <li className="list-group-item">Sole creator and engineer of this full-stack application, inspired by my love for coffee</li>
-                                    <li className="list-group-item">Clients have ability to register or login with Passport Authentication </li>
-                                    <li className="list-group-item"></li>
-                                    <li className="list-group-item"></li>
-                                    <li className="list-group-item"></li>
+                                    <li className="list-group-item card-header-warning text-light">Sole creator and engineer of this full-stack application, inspired by my love for coffee</li>
+                                    <li className="list-group-item card-header-warning text-light">Clients have ability to register or login with Passport Authentication with encrypted passwords using BCrypt</li>
+                                    <li className="list-group-item card-header-warning text-light">Users have the ability to place an order with any combination of snacks or drinks using CRUD REST api functions</li>
+                                    <li className="list-group-item card-header-warning text-light">Several hooks are experimented with in this project, ie useForm() for form handling and apiService() for CRUD applications</li>
+                                    <li className="list-group-item card-header-warning text-light">Server functions handle all of the math and sorting the orders placed so that the correct price is displayed</li>
+                                    <li className="list-group-item card-header-warning text-light">Stripe integration for handling a mock-purchase sends receipt information to a stored api procedure</li>
+                                    <li className="list-group-item card-header-warning text-light">Frontend uses TypeScript and Bootstrap; Backend uses ExpressJS and MySQL </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="card-footer"></div>
+                        <div className="card-footer card-header-info"></div>
                     </div>
                 </div>
                 {/* <div className="col-md-12 bgcolor">

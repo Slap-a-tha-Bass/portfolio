@@ -28,7 +28,7 @@
   color: black
 }
 @keyframes nav {
-  from{background-color: black}
+  from{background-color: rgb(122, 169, 230)}
   to{background-color: rgb(245,245,245)}
   from{color:rgb(245, 245, 245)}
   to{color:black}
@@ -67,6 +67,8 @@
   color:rgb(122, 169, 230);
   font-family: monospace;
   padding-left: 0.5rem;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
 }
 .Name:hover {
   cursor: pointer;
@@ -104,7 +106,7 @@
   font-weight: 300;
   border: rgb(110, 110, 110) 5px inset;
   border-radius: 0.3rem;
-  color: whitesmoke;
+  color: black;
   background-color: rgb(61, 61, 61);
   margin-right: 5.5rem;
   margin-left: 5.5rem;
@@ -119,7 +121,7 @@
   font-weight: 300;
   border: rgb(110, 110, 110) 5px inset;
   border-radius: 0.3rem;
-  color: whitesmoke;
+  color: black;
   background-color: rgb(61, 61, 61);
   margin-right: 8.5rem;
   margin-left: 8.5rem;
@@ -134,13 +136,13 @@
   font-weight: 300;
   border: rgb(110, 110, 110) 5px inset;
   border-radius: 0.3rem;
-  color: whitesmoke;
+  color: black;
   background-color: rgb(61, 61, 61);
   margin-right: 4rem;
   margin-left: 4rem;
 }
 .social {
-  color: whitesmoke;
+  color: black;
   font-size: calc(15px + 2vmin);
   min-height: 3rem;
   min-width: 3rem;
@@ -154,4 +156,13 @@
 }
 .lucida {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-color {
+  color: rgb(122, 169, 230);
+}
+.card-header-warning {
+  background-color: rgb(160,160,160)!important;
+}
+.card-header-info {
+  background-color: rgb(150,150,150)!important;
 }

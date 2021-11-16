@@ -5,7 +5,7 @@ const Home = () => {
             <>
                 <div>
                     <div className="Home display-3 d-flex align-items-center">
-                        Hi, my name is  <p className="Name display-1 mt-3 mx-1"> Corey DeLoach</p> 
+                        Hi, my name is  <p className="Name display-1"> Corey DeLoach</p> 
                     </div>
                     <div className="Home display-3">
                         I am a Full-Stack Software Developer
