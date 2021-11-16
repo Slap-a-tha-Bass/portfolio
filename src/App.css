@@ -51,14 +51,9 @@
 }
 .link {
   color: black;
-  font-size: calc(12px + 2vmin);
-  padding-left: 5rem;
-  padding-right: 5rem;
+  font-size: large;
   text-decoration: none;
-}
-.link:hover {
-  background-color: rgb(122, 169, 230);
-  border-radius: 10px;
+  padding-left: 2rem;
 }
 .paragraph {
   display: flex;
