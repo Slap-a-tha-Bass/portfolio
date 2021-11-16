@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className = "NavBar">
             <div className="d-flex">
-                <Link to='/' className ="NavButton mx-4">home</Link>
+                <Link to='/' className ="LogoButton mx-4 display-1 shadow px-2">CD</Link>
             </div>
             <div className="d-flex ">
                 <Link to='/projects' className ="NavButton mx-4">projects</Link>

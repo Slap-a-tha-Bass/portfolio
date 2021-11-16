@@ -2,7 +2,7 @@ import React from 'react';
 
 const RootLayout = ({children}) => {
     return (
-        <main className="">
+        <main className="lucida bgcolor">
             <section className="row">
                 {children}
             </section>

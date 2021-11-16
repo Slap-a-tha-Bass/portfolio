@@ -4,7 +4,8 @@ const Projects = () => {
 
     return (  
         <>
-                <div className="d-flex justify-content-center bgcolor ">
+                <h1 className="Projects text-center">Projects</h1>
+                <div className="d-flex justify-content-center">
                     <div className="card border rounded shadow">
                         <h2 className="card-header">c^2 coffee</h2>
                         <div className="card-body">

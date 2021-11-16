@@ -2,13 +2,15 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <main className="bg-light">
-                    <div className="Home display-3 d-flex">
-                        Hi, my name is  <p className="Name"> Corey DeLoach</p> 
+            <>
+                <div>
+                    <div className="Home display-3 d-flex align-items-center">
+                        Hi, my name is  <p className="Name display-1 mt-3 mx-1"> Corey DeLoach</p> 
                     </div>
                     <div className="Home display-3">
                         I am a Full-Stack Software Developer
                     </div>
+                </div>
                     {/* <div className="Home text-center mt-2">
                         my name is <p className="para-name">corey deloach</p>
                     </div>
@@ -24,7 +26,8 @@ const Home = () => {
                     <div className="Home text-center mt-3">
                         i thank <a className="link my-2 pt-1" target="_blank" rel="noreferrer" href="https://www.covalence.io">Covalence</a> for their help and mentorship
                     </div> */}
-        </main>
+            </>
+       
     )
 }
 
