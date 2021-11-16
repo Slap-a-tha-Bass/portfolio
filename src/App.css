@@ -22,8 +22,7 @@
 }
 .NavButton:hover {
   cursor: pointer;
-  animation-name: nav;
-  animation-duration: 1s;
+  animation: nav 2s;
   text-decoration: none;
   color: black
 }
@@ -36,7 +35,7 @@
 .LogoButton {
   color: rgb(122, 169, 230);
   font-family: monospace;
-  background-color: rgb(245,245,245);
+  background-color: rgb(230,230,230);
   border-radius: 0.5rem;
   min-height: 30px;
   min-width: 65px;
@@ -48,7 +47,7 @@
 .LogoButton:hover {
   cursor: pointer;
   color: rgb(122, 169, 230);
-  animation: logo-flip 2s;
+  animation: logo-flip 0.5s;
 }
 @keyframes logo-flip {
   0% {
@@ -161,8 +160,8 @@
   color: rgb(122, 169, 230);
 }
 .card-header-warning {
-  background-color: rgb(160,160,160)!important;
+  background-color: rgb(230,230,230)!important;
 }
 .card-header-info {
-  background-color: rgb(150,150,150)!important;
+  background-color: rgb(215,215,215)!important;
 }
