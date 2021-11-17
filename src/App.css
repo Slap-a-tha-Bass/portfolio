@@ -15,27 +15,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: large;
   padding: 0.2rem;
 }
 .NavButton:hover {
   cursor: pointer;
   animation: nav 2s;
-  text-decoration: none;
   color: black
 }
 @keyframes nav {
-  from{background-color: rgb(122, 169, 230)}
-  to{background-color: rgb(245,245,245)}
-  from{color:rgb(245, 245, 245)}
-  to{color:black}
+  from{background-color: rgb(200,200,200)}
+  to{background-color: rgb(245, 245, 245)}
 }
 .LogoButton {
-  color: rgb(122, 169, 230);
+  color: black;
   font-family: monospace;
-  background-color: rgb(230,230,230);
+  background-color: rgb(240,240,240);
+  border: black 1px solid;
   border-radius: 0.5rem;
   min-height: 30px;
   min-width: 65px;
@@ -45,9 +42,10 @@
   text-decoration: none;
 }
 .LogoButton:hover {
+  border: black 1px solid;
   cursor: pointer;
-  color: rgb(122, 169, 230);
-  animation: logo-flip 0.5s;
+  color: black;
+  animation: logo-flip 2s;
 }
 @keyframes logo-flip {
   0% {
@@ -63,9 +61,8 @@
   background-color: rgb(245,245,245);
 }
 .Name {
-  color:rgb(122, 169, 230);
+  color: black;
   font-family: monospace;
-  padding-left: 0.5rem;
   margin-top: 0.8rem;
   margin-left: 0.8rem;
 }
@@ -82,7 +79,7 @@
   }
 }
 .Projects {
-  color:rgb(122, 169, 230);
+  color:black;
   font-family: monospace;
   padding-left: 0.5rem;
 }
@@ -160,8 +157,42 @@
   color: rgb(122, 169, 230);
 }
 .card-header-warning {
-  background-color: rgb(230,230,230)!important;
+  background-color: rgb(100,100,100)!important;
 }
 .card-header-info {
-  background-color: rgb(215,215,215)!important;
+  background-color: rgb(85,85,85)!important;
+}
+.checkered{
+  height: 240px;
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
+  background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
+  background-repeat: repeat, repeat;
+  background-position: 0px 0, 5px 5px;
+  -webkit-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  -webkit-background-origin: padding-box, padding-box;
+  background-origin: padding-box, padding-box;
+  -webkit-background-clip: border-box, border-box;
+  background-clip: border-box, border-box;
+  -webkit-background-size: 10px 10px, 10px 10px;
+  background-size: 10px 10px, 10px 10px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-transform: scaleX(1) scaleY(1) scaleZ(1);
+  transform: scaleX(1) scaleY(1) scaleZ(1);
+}
+.chess-img {
+  background-image: url('./chessphoto2.jpg');
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-size: contain;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  margin-top: 3rem;
 }

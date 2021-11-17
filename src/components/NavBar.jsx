@@ -4,13 +4,13 @@ import '../App.css';
 
 const NavBar = () => {
     return (
-        <div className = "NavBar">
+        <div className = "NavBar checkered border border border-1 border-dark">
             <div className="d-flex">
                 <Link to='/' className ="LogoButton mx-4 display-1 shadow px-2">CD</Link>
             </div>
             <div className="d-flex ">
-                <Link to='/projects' className ="NavButton mx-4">projects</Link>
-                <Link to='/contact' className ="NavButton mx-4">contact</Link>
+                <Link to='/projects' className ="NavButton mx-4 h4">projects</Link>
+                <Link to='/contact' className ="NavButton mx-4 h4">contact</Link>
             </div>
         </div>
     )
