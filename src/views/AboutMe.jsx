@@ -12,7 +12,7 @@ const AboutMe = () => {
                         <li className="list-group-item">B.S. in Biology from Birmingham-Southern College</li>
                         <li className="list-group-item">Been in chemical sales for 7 years</li>
                         <li className="list-group-item">Daily chess player on chess.com</li>
-                        <li className="list-group-item">Like to code at coffee shops but am working on a home office</li>
+                        <li className="list-group-item">Like to code at coffee shops but working on a home office</li>
                         <li className="list-group-item">Wood working and DIY project friendly</li>
                         <li className="list-group-item">Unpaid part-time comedian</li>
                     </ul>

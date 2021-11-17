@@ -5,6 +5,7 @@ import Projects from './views/Projects';
 import Contact from './views/Contact';
 import AboutMe from './views/AboutMe';
 import NavBar from './components/NavBar';
+import FootBar from './components/FootBar';
 import RootLayout from './components/RootLayout';
 import './App.css';
 
@@ -28,6 +29,7 @@ const App = () => {
                 <AboutMe />
               </Route>
             </Switch>
+            <FootBar />
             </RootLayout>
         </BrowserRouter>
       );

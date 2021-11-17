@@ -37,14 +37,14 @@ const Projects = () => {
                 {/* chirper project */}
                 <div className="d-flex justify-content-center px-4">
                     <div className="card rounded shadow-lg my-3 col-md-8">
-                        <div className="card-header card-header-info text-center text-light h2">chirper</div>
+                        <div className="card-header card-header-info text-center text-light h2">chirpr-app</div>
                         <div className="card-body card-header-info">
                             <div className="card-text">
                                 <ul className="list-group">
                                     <li className="list-group-item card-header-warning text-light border-dark">Sole creator and engineer of this full-stack application</li>
                                     <li className="list-group-item card-header-warning text-light border-dark">Clients have ability to register or login with Passport Authentication with encrypted passwords using BCrypt</li>
                                     <li className="list-group-item card-header-warning text-light border-dark">Users have the ability to send status updates using CRUD REST api functions</li>
-                                    <li className="list-group-item card-header-warning text-light border-dark"></li>
+                                    <li className="list-group-item card-header-warning text-light border-dark">Users can also Donate to the website with a Stripe integration</li>
                                     <li className="list-group-item card-header-warning text-light border-dark">Frontend uses TypeScript and Bootstrap; Backend uses ExpressJS and MySQL </li>
                                 </ul>
                             </div>
@@ -52,7 +52,7 @@ const Projects = () => {
                         <div className="card-footer card-header-info d-flex justify-content-around">
                             <div>
                                 <p className="h5 text-light">Deployed project:</p>
-                                <a className="link" href="https://cc-coffee.herokuapp.com" target="_blank" rel="noopener noreferrer">c^2 coffee</a>
+                                <a className="link" href="https://chirpr-app.herokuapp.com" target="_blank" rel="noopener noreferrer">chirpr app</a>
                             </div>
                             <div>
                                 <p className="h5 text-light">Link to repo:</p>
