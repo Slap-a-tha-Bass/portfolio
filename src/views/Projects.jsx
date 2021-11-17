@@ -56,7 +56,7 @@ const Projects = () => {
                             </div>
                             <div>
                                 <p className="h5 text-light">Link to repo:</p>
-                                <a className="link" href="https://www.github.com/Slap-a-tha-Bass/final_project_cc_coffee_app" target="_blank" rel="noopener noreferrer"><i className="bi bi-github h3"></i></a>
+                                <a className="link" href="https://www.github.com/Slap-a-tha-Bass/chirprDB" target="_blank" rel="noopener noreferrer"><i className="bi bi-github h3"></i></a>
                             </div>
                         </div>
                     </div>
