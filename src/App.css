@@ -1,11 +1,8 @@
 .NavBar {
-  min-height: 10rem;
   margin: auto;
-  background: rgb(245, 245, 245);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(245,245,245);
 }
 .NavButton {
   color: black;
@@ -56,26 +53,28 @@
   }
 }
 .Home {
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-bottom: 1rem;
   background-color: rgb(245,245,245);
 }
 .Name {
   color: black;
+  text-decoration: none;
   font-family: monospace;
-  margin-top: 0.8rem;
   margin-left: 0.8rem;
 }
 .Name:hover {
+  text-decoration: none;
+  color:rgb(61, 61, 61);
   cursor: pointer;
-  animation: name-flip 2s;
+  animation: name-zoom 2s;
 }
-@keyframes name-flip {
+@keyframes name-zoom {
   0% {
-    transform: rotateX(180deg);
+    zoom: 1.2;
   }
   100% {
-    transform: rotateZ(360deg);
+    zoom: 1.2;
   }
 }
 .Projects {
@@ -87,8 +86,14 @@
   background-color: rgb(245, 245, 245);
 }
 .link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+.link:hover {
   color: black;
-  font-size: large;
+  font-size: 25px;
   text-decoration: none;
   padding-left: 2rem;
 }
@@ -158,12 +163,14 @@
 }
 .card-header-warning {
   background-color: rgb(100,100,100)!important;
+  border: 1px solid black;
 }
 .card-header-info {
   background-color: rgb(85,85,85)!important;
+  border: 2px solid black;
 }
 .checkered{
-  height: 240px;
+  height: 200px;
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
   background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;

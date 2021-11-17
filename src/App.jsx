@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
+import AboutMe from './views/AboutMe';
 import NavBar from './components/NavBar';
 import RootLayout from './components/RootLayout';
 import './App.css';
@@ -22,6 +23,9 @@ const App = () => {
               </Route>
               <Route exact path = '/contact'>
                 <Contact />
+              </Route>
+              <Route exact path = '/aboutme'>
+                <AboutMe />
               </Route>
             </Switch>
             </RootLayout>

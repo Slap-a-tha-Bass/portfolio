@@ -4,10 +4,10 @@ const Projects = () => {
 
     return (  
         <div>
-                <h1 className="Projects text-center display-4 ">Projects</h1>
+                <h1 className="Projects text-center display-4 mt-2">Projects</h1>
                 {/* c^2 coffee project */}
                 <div className="d-flex justify-content-center px-4">
-                    <div className="card border rounded shadow-lg border-3 border-dark my-3 col-md-8">
+                    <div className="card rounded shadow-lg my-3 col-md-8">
                         <div className="card-header card-header-info text-center text-light h2">c^2 coffee</div>
                         <div className="card-body card-header-info">
                             <div className="card-text">
@@ -22,21 +22,21 @@ const Projects = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="card-footer card-header-info border-2 border-dark d-flex justify-content-around">
+                        <div className="card-footer card-header-info d-flex justify-content-around">
                             <div>
                                 <p className="h5 text-light">Deployed project:</p>
-                                <a className="link text-light" href="https://cc-coffee.herokuapp.com" target="_blank" rel="noopener noreferrer">c^2 coffee</a>
+                                <a className="link" href="https://cc-coffee.herokuapp.com" target="_blank" rel="noopener noreferrer">c^2 coffee</a>
                             </div>
                             <div>
                                 <p className="h5 text-light">Link to repo:</p>
-                                <a className="link text-light" href="https://www.github.com/Slap-a-tha-Bass/final_project_cc_coffee_app" target="_blank" rel="noopener noreferrer"><i className="bi bi-github btn-lg"></i></a>
+                                <a className="link" href="https://www.github.com/Slap-a-tha-Bass/final_project_cc_coffee_app" target="_blank" rel="noopener noreferrer"><i className="bi bi-github h3"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* chirper project */}
                 <div className="d-flex justify-content-center px-4">
-                    <div className="card border rounded shadow-lg border-3 border-dark my-3 col-md-8">
+                    <div className="card rounded shadow-lg my-3 col-md-8">
                         <div className="card-header card-header-info text-center text-light h2">chirper</div>
                         <div className="card-body card-header-info">
                             <div className="card-text">
@@ -52,11 +52,11 @@ const Projects = () => {
                         <div className="card-footer card-header-info d-flex justify-content-around">
                             <div>
                                 <p className="h5 text-light">Deployed project:</p>
-                                <a className="link text-light" href="https://cc-coffee.herokuapp.com" target="_blank" rel="noopener noreferrer">c^2 coffee</a>
+                                <a className="link" href="https://cc-coffee.herokuapp.com" target="_blank" rel="noopener noreferrer">c^2 coffee</a>
                             </div>
                             <div>
                                 <p className="h5 text-light">Link to repo:</p>
-                                <a className="link text-light" href="https://www.github.com/Slap-a-tha-Bass/final_project_cc_coffee_app" target="_blank" rel="noopener noreferrer"><i className="bi bi-github btn-lg"></i></a>
+                                <a className="link" href="https://www.github.com/Slap-a-tha-Bass/final_project_cc_coffee_app" target="_blank" rel="noopener noreferrer"><i className="bi bi-github h3"></i></a>
                             </div>
                         </div>
                     </div>
