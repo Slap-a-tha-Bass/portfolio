@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Projects = () => {
 
@@ -37,7 +37,7 @@ const Projects = () => {
                 {/* chirper project */}
                 <div className="d-flex justify-content-center px-4">
                     <div className="card border-dark rounded shadow-lg my-3 col-md-8">
-                        <div className="card-header card-header-info text-center h2">chirpr-app</div>
+                        <div className="card-header card-header-info text-center h2">chirpr app</div>
                         <div className="card-body card-header-info">
                             <div className="card-text">
                                 <ul className="list-group">

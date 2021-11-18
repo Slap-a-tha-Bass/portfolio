@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
     return (
             <div className="chess-img-2">
-                <h1 className="Projects text-center display-4 mt-2">Contact me</h1>
+                <h1 className="Projects text-center text-light display-4 mt-2">Contact me</h1>
                 <div className="text-center mt-2 text-light">if you're interested in hiring me or like what i do</div>
                 <div className="d-flex justify-content-center align-items-center mt-2 text-light">
                     <div>
