@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 .NavButton {
-  color: black;
+  color: rgb(61, 61, 61);
   border-radius: 0.3rem;
   min-height: 30px;
   min-width: 65px;
@@ -15,21 +15,21 @@
   font-weight: 400;
   font-size: large;
   padding: 0.2rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 .NavButton:hover {
   cursor: pointer;
-  animation: nav 2s;
-  color: black
-}
-@keyframes nav {
-  from{background-color: rgb(200,200,200)}
-  to{background-color: rgb(245, 245, 245)}
+  font-weight: bold;
+  background-color: rgb(220, 220, 220);
+  color: rgb(61, 61, 61);
 }
 .LogoButton {
-  color: black;
+  color: rgba(240,240,240,0.6);
   font-family: monospace;
-  background-color: rgb(220,220,220);
-  border: black 1px solid;
+  background-color: rgba(50,50,50,0.4);
   border-radius: 0.5rem;
   min-height: 30px;
   min-width: 65px;
@@ -37,12 +37,16 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 .LogoButton:hover {
-  border: black 1px solid;
+  color: rgba(240,240,240,0.6);
   cursor: pointer;
-  color: black;
   animation: logo-flip 2s;
+  transition: ease 0.3s;
 }
 @keyframes logo-flip {
   0% {
@@ -52,25 +56,63 @@
     transform: rotateY(360deg);
   }
 }
+.ProjectCard {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.ProjectCard:hover {
+  cursor: pointer;
+  zoom: 1.05;
+}
+.HomeButton {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  min-width: 4rem;
+  min-height: 2rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.HomeButton:hover {
+  display: flex;
+  font-weight: bolder;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.HomeDiv {
+  min-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .Name {
   color: white;
+  font-size: calc(50px + 2vmin);
   text-decoration: none;
   font-family: monospace;
   margin-left: 0.8rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 .Name:hover {
+  font-size: calc(60px + 2vmin);
   text-decoration: none;
   color: white;
   cursor: pointer;
-  animation: name-zoom 2s;
-}
-@keyframes name-zoom {
-  0% {
-    zoom: 1.2;
-  }
-  100% {
-    zoom: 1.2;
-  }
 }
 .Projects {
   color:black;
@@ -189,12 +231,12 @@
 }
 .chess-img {
   background-image: url('./chessphoto9.jpg');
-  min-height:350px;
-  background-position: center;
+  min-height: 250px;
+  background-position: top;
   background-size: auto;
   background-repeat: none;
   background-attachment: fixed;
-  background-size: 100% 75%;
+  background-size: 60% 60%;
   border-radius: 10px;
 }
 .chess-img-2 {

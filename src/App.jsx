@@ -4,6 +4,8 @@ import Home from './views/Home';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
 import AboutMe from './views/AboutMe';
+import CoffeeApp from './views/CoffeeApp';
+import ChirprApp from './views/ChirprApp';
 import NavBar from './components/NavBar';
 import FootBar from './components/FootBar';
 import RootLayout from './components/RootLayout';
@@ -21,6 +23,12 @@ const App = () => {
               </Route>
               <Route exact path = '/projects'>
                 <Projects />
+              </Route>
+              <Route exact path = '/projects/coffeeapp'>
+                <CoffeeApp />
+              </Route>
+              <Route exact path = '/projects/chirprapp'>
+                <ChirprApp />
               </Route>
               <Route exact path = '/contact'>
                 <Contact />

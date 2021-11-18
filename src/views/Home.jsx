@@ -6,10 +6,14 @@ const Home = () => {
             
                 <div className="chess-img">
                     <div className="text-white display-5 d-flex align-items-center justify-content-center text-center">
-                        Hi, my name is  <Link to="/aboutme" className="Name text-white display-2"> Corey DeLoach</Link> 
+                        Hi, my name is  <Link to="/aboutme" className="Name"> Corey DeLoach</Link> 
                     </div>
-                    <div className="text-white display-5 text-center pt-3">
+                    <div className="text-white display-6 text-center pt-3">
                         I am a Full-Stack Software Developer
+                    </div>
+                    <div className="HomeDiv">
+                            <Link className="HomeButton border rounded-pill" to="/projects">view my work</Link>
+                            <Link className="HomeButton border rounded-pill" to="/contact">contact me</Link>
                     </div>
                 </div>
                 
