@@ -11,7 +11,6 @@ import FootBar from './components/FootBar';
 import RootLayout from './components/RootLayout';
 import './App.css';
 
-
 const App = () => {
       return (
         <BrowserRouter>

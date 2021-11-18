@@ -6,6 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+Promise.all([
+  fetch('https://cc-coffee.herokuapp.com'),
+  fetch('https://chirpr-app.herokuapp.com')
+]).then(() => console.log('Awake apps! Muahaha!'));
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

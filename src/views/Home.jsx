@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-            
                 <div className="chess-img">
                     <div className="text-white display-5 d-flex align-items-center justify-content-center text-center">
                         Hi, my name is  <Link to="/aboutme" className="Name"> Corey DeLoach</Link> 
@@ -15,8 +14,7 @@ const Home = () => {
                             <Link className="HomeButton border rounded-pill" to="/projects">view my work</Link>
                             <Link className="HomeButton border rounded-pill" to="/contact">contact me</Link>
                     </div>
-                </div>
-                
+                </div>  
     )
 }
 

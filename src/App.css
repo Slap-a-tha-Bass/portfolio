@@ -114,6 +114,23 @@
   color: white;
   cursor: pointer;
 }
+.Contact {
+  color: white;
+  font-size: calc(25px + 2vmin);
+  text-decoration: none;
+  font-family: monospace;
+  margin-left: 0.8rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.Contact:hover {
+  font-size: calc(30px + 2vmin);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 .Projects {
   color:black;
   font-family: monospace;
