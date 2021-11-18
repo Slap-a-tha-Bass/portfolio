@@ -28,7 +28,7 @@
 .LogoButton {
   color: black;
   font-family: monospace;
-  background-color: rgb(240,240,240);
+  background-color: rgb(220,220,220);
   border: black 1px solid;
   border-radius: 0.5rem;
   min-height: 30px;
@@ -215,4 +215,7 @@
 }
 .copyright {
   font-size: 12px;
+}
+.Home-text {
+  color:rgb(210, 210, 210);
 }

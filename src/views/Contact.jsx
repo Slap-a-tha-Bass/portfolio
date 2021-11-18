@@ -5,7 +5,7 @@ const Contact = () => {
     return (
             <div className="chess-img-2">
                 <h1 className="Projects text-center text-light display-4 mt-2">Contact me</h1>
-                <div className="text-center mt-2 text-light">if you're interested in hiring me or like what i do</div>
+                <div className="text-center mt-2 text-light h4">via</div>
                 <div className="d-flex justify-content-center align-items-center mt-2 text-light">
                     <div>
                         <a className="social mx-2 d-flex align-items-center" href="http://www.github.com/Slap-a-tha-Bass" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
