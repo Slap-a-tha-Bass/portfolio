@@ -53,14 +53,14 @@
   }
 }
 .Name {
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   font-family: monospace;
   margin-left: 0.8rem;
 }
 .Name:hover {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
   cursor: pointer;
   animation: name-zoom 2s;
 }
@@ -188,25 +188,26 @@
   transform: scaleX(1) scaleY(1) scaleZ(1);
 }
 .chess-img {
-  background-image: url('./chessphoto2.jpg');
-  min-height: 300px;
+  background-image: url('./chessphoto9.jpg');
+  min-height:350px;
+  background-position: center;
+  background-size: auto;
   background-repeat: none;
   background-attachment: fixed;
   background-size: 100% 75%;
   border-radius: 10px;
-  margin-top: 3rem;
 }
 .chess-img-2 {
   background-image: url('./chessphoto.jpg');
-  min-height: 300px;
+  min-height: 400px;
   background-repeat: none;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   background-size: 100% 75%;
   border-radius: 10px;
   margin-left: 0.5rem;
-  margin-top: 3rem;
+
 }
 .foot {
   padding-top: 5rem;
@@ -215,7 +216,4 @@
 }
 .copyright {
   font-size: 12px;
-}
-.Home-text {
-  color:rgb(210, 210, 210);
 }

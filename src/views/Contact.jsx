@@ -10,11 +10,9 @@ const Contact = () => {
                     <div>
                         <a className="social mx-2 d-flex align-items-center" href="http://www.github.com/Slap-a-tha-Bass" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a>
                     </div>
-                    <div className="">or</div>
                     <div>
                         <a className="social mx-2 d-flex align-items-center" href="http://www.linkedin.com/us/corey-deloach-061180124/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>                
                     </div>
-                    <div className="">or</div>
                     <div>
                         <a className="social mx-2 d-flex align-items-center" href="http://www.twitter.com/Slap_a_tha_Bass" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter"></i></a>
                     </div>
