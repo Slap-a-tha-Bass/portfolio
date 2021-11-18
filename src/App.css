@@ -52,18 +52,15 @@
     transform: rotateY(360deg);
   }
 }
-.Home {
-  background-color: rgb(245,245,245);
-}
 .Name {
-  color: black;
+  color: whitesmoke;
   text-decoration: none;
   font-family: monospace;
   margin-left: 0.8rem;
 }
 .Name:hover {
   text-decoration: none;
-  color:rgb(61, 61, 61);
+  color: whitesmoke;
   cursor: pointer;
   animation: name-zoom 2s;
 }
@@ -76,7 +73,7 @@
   }
 }
 .Projects {
-  color:black;
+  color:whitesmoke;
   font-family: monospace;
   padding-left: 0.5rem;
 }
@@ -84,13 +81,13 @@
   background-color: rgb(245, 245, 245);
 }
 .link {
-  color: white;
+  color: black;
   font-size: 25px;
   text-decoration: none;
   padding-left: 2rem;
 }
 .link:hover {
-  color: black;
+  color: rgb(120,120,120);
   font-size: 25px;
   text-decoration: none;
   padding-left: 2rem;
@@ -141,7 +138,7 @@
   margin-left: 4rem;
 }
 .social {
-  color: black;
+  color: whitesmoke;
   font-size: calc(15px + 2vmin);
   min-height: 3rem;
   min-width: 3rem;
@@ -150,7 +147,7 @@
   justify-content: center;
 }
 .social:hover {
-  background-color: rgb(122, 169, 230);
+  background-color: rgb(180,180,180);
   border-radius: 10px;
 }
 .lucida {
@@ -160,12 +157,10 @@
   color: rgb(122, 169, 230);
 }
 .card-header-warning {
-  background-color: rgb(100,100,100)!important;
-  border: 1px solid black;
+  background-color: rgb(240,240,240)!important;
 }
 .card-header-info {
-  background-color: rgb(85,85,85)!important;
-  border: 2px solid black;
+  background-color: rgb(230,230,230)!important;
 }
 .checkered{
   height: 200px;
@@ -195,14 +190,20 @@
 .chess-img {
   background-image: url('./chessphoto2.jpg');
   min-height: 300px;
-  background-size: contain;
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: 100% 75%;
   border-radius: 10px;
   margin-top: 3rem;
 }
 .chess-img-2 {
   background-image: url('./chessphoto.jpg');
   min-height: 300px;
-  background-size: contain;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 75%;
   border-radius: 10px;
   margin-left: 0.5rem;
   margin-top: 3rem;
