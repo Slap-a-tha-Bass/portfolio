@@ -2,6 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+    // useEffect(() => {
+    //     fetch('https://cc-coffee.herokuapp.com/')
+    //         .then(() => console.log('Coffee awaken!'));
+    // }, []);
+    // useEffect(() => {
+    //     fetch('https://chirpr-app.herokuapp.com/')
+    //         .then(() => console.log('Chirpr awaken!'));
+    // }, []);
     return (
                 <div className="chess-img">
                     <div className="text-white display-5 d-flex align-items-center justify-content-center text-center">
