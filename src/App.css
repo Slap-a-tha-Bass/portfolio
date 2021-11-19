@@ -72,6 +72,7 @@
 }
 .HomeButton {
   background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 10px 5px black;
   color: white;
   min-width: 4rem;
   min-height: 2rem;
@@ -259,7 +260,7 @@
 }
 .chess-img-2 {
   background-image: url('./chessphoto.jpg');
-  min-height: 400px;
+  min-height: 300px;
   background-repeat: none;
   background-position: center;
   background-size: auto;
