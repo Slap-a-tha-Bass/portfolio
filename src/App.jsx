@@ -4,6 +4,7 @@ import Home from './views/Home';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
 import AboutMe from './views/AboutMe';
+import Resume from './views/Resume';
 import CoffeeApp from './views/CoffeeApp';
 import ChirprApp from './views/ChirprApp';
 import NavBar from './components/NavBar';
@@ -34,6 +35,9 @@ const App = () => {
               </Route>
               <Route exact path = '/aboutme'>
                 <AboutMe />
+              </Route>
+              <Route exact path = '/resume'>
+                <Resume />
               </Route>
             </Switch>
             <FootBar />

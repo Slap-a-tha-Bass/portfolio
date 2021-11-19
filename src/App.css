@@ -255,7 +255,7 @@
   background-size: auto;
   background-repeat: none;
   background-attachment: fixed;
-  background-size: 60% 60%;
+  background-size: 85% 85%;
   border-radius: 10px;
 }
 .chess-img-2 {
@@ -265,10 +265,19 @@
   background-position: center;
   background-size: auto;
   background-attachment: fixed;
-  background-size: 100% 75%;
+  background-size: 100% 100%;
   border-radius: 10px;
   margin-left: 0.5rem;
-
+}
+.resume {
+  background-image: url('./resume.png');
+  height: 1300px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-left: 0.5rem;
 }
 .foot {
   padding-top: 5rem;
