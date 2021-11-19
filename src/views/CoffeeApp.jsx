@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CoffeeApp = () => {
     return (
+    <>
         <div className="d-flex justify-content-center px-4">
                     <div className="card rounded shadow-lg my-3 col-md-8">
                         <div className="card-header card-header-info text-center h2">c^2 coffee</div>
@@ -34,6 +35,39 @@ const CoffeeApp = () => {
                         </div>
                     </div>
                 </div>
+                <div className="d-flex justify-content-center">
+                    <div className="card border rounded shadow card-header-success p-2 m-2  col-md-4">
+                        <h4 className="card-header text-center text-light">Order Page</h4>
+                        <div className="card-body d-flex justify-content-center">
+                                <div className="order-page"></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <div className="card border rounded shadow card-header-success p-2 m-2 col-md-4">
+                        <h4 className="card-header text-center text-light">Subtotal Page</h4>
+                        <div className="card-body d-flex justify-content-center">     
+                                <div className="subtotal-page"></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <div className="card border rounded shadow card-header-success p-2 m-2 col-md-4">
+                        <h4 className="card-header text-center text-light">Payment Page</h4>
+                        <div className="card-body d-flex justify-content-center">
+                                <div className="payment-page"></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <div className="card border rounded shadow card-header-success p-2 m-2 col-md-4">
+                        <h4 className="card-header text-center text-light">Receipt URL Page</h4>
+                        <div className="card-body d-flex justify-content-center">
+                                <div className="receipturl-page"></div>
+                        </div>
+                    </div>
+                </div>
+    </>
     )
 }
 

@@ -223,6 +223,9 @@
 .card-header-info {
   background-color: rgb(230,230,230)!important;
 }
+.card-header-success {
+  background-color: rgb(61,61,61)!important;
+}
 .checkered{
   height: 200px;
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
@@ -249,7 +252,7 @@
   transform: scaleX(1) scaleY(1) scaleZ(1);
 }
 .chess-img {
-  background-image: url('./chessphoto9.jpg');
+  background-image: url('./photos/chessphoto9.jpg');
   min-height: 250px;
   background-position: top;
   background-size: auto;
@@ -259,7 +262,18 @@
   border-radius: 10px;
 }
 .chess-img-2 {
-  background-image: url('./chessphoto.jpg');
+  background-image: url('./photos/chessphoto.jpg');
+  min-height: 300px;
+  background-repeat: none;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+}
+.chess-img-3 {
+  background-image: url('./photos/chessphoto.jpg');
   min-height: 300px;
   background-repeat: none;
   background-position: center;
@@ -270,7 +284,7 @@
   margin-left: 0.5rem;
 }
 .resume {
-  background-image: url('./resume.png');
+  background-image: url('./photos/resume.png');
   height: 1300px;
   background-repeat: none;
   background-position: center;
@@ -278,6 +292,46 @@
   background-size: 100% 100%;
   border-radius: 10px;
   margin-left: 0.5rem;
+}
+.order-page {
+  background-image: url('./photos/orderpage.png');
+  height: 400px;
+  width: 325px;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.subtotal-page {
+  background-image: url('./photos/subtotalpage.png');
+  height: 325px;
+  width: 325px;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.payment-page {
+  background-image: url('./photos/paymentpage.png');
+  height: 325px;
+  width: 325px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.receipturl-page {
+  background-image: url('./photos/receipturlpage.png');
+  height: 400px;
+  width: 325px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  border-radius: 10px;
 }
 .foot {
   padding-top: 5rem;
