@@ -24,6 +24,7 @@ const Contact = () => {
                 <br />
                 <div className="d-flex justify-content-center">
                 <div className="d-flex justify-content-center"><Link className="h4 Contact mt-3" to="/aboutme">about me</Link></div>
+                </div>
             </div>
     )
 }
