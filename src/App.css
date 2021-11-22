@@ -234,7 +234,6 @@
 .chess-img {
   background-image: url('./photos/chessphoto9.jpg');
   min-height: 350px;
-  max-width: max-content;
   background-position: auto;
   background-size: cover;
   background-repeat: none;
