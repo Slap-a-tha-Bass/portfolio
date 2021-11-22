@@ -55,6 +55,9 @@
     transform: rotateY(360deg);
   }
 }
+.ProjectCard {
+  margin-left: 3rem;
+}
 .ProjectCard:hover {
   cursor: pointer;
   zoom: 1.05;
@@ -237,31 +240,19 @@
   background-position: auto;
   background-size: cover;
   background-repeat: none;
-  background-attachment: fixed;
-  background-size: 100% 80%;
-  margin-left: 0.75rem;
+  background-attachment: absolute;
+  background-size: 100% 90%;
+  margin-left: 1.5rem;
 }
 .chess-img-2 {
   background-image: url('./photos/chessphoto.jpg');
   min-height: 300px;
   background-repeat: none;
   background-position: top;
-  background-size: auto;
-  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: absolute;
   background-size: 100% 100%;
-  border-radius: 10px;
-  margin-left: 0.5rem;
-}
-.chess-img-3 {
-  background-image: url('./photos/chessphoto.jpg');
-  min-height: 300px;
-  background-repeat: none;
-  background-position: center;
-  background-size: auto;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  border-radius: 10px;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
 }
 .resume {
   background-image: url('./photos/resume.png');
