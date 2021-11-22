@@ -5,7 +5,7 @@ import '../App.css';
 const NavBar = () => {
     return (
         <div className = "NavBar checkered border-bottom border-dark">
-            <div className="d-flex">
+            <div>
                 <Link to='/' className ="LogoButton mx-4 display-1 shadow px-2">CD</Link>
             </div>
             <div className="d-flex ">

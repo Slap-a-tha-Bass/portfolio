@@ -1,5 +1,4 @@
 .NavBar {
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,16 +54,6 @@
   100% {
     transform: rotateY(360deg);
   }
-}
-.ProjectCard {
-  display: flex;
-  align-items: flex-start;
-  cursor: pointer;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  margin-right: 0.5rem;
 }
 .ProjectCard:hover {
   cursor: pointer;
@@ -217,17 +206,8 @@
 .text-color {
   color: rgb(122, 169, 230);
 }
-.card-header-warning {
-  background-color: rgb(240,240,240)!important;
-}
-.card-header-info {
-  background-color: rgb(230,230,230)!important;
-}
-.card-header-success {
-  background-color: rgb(61,61,61)!important;
-}
 .checkered{
-  height: 200px;
+  height: 180px;
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
   background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
@@ -253,19 +233,20 @@
 }
 .chess-img {
   background-image: url('./photos/chessphoto9.jpg');
-  min-height: 250px;
-  background-position: top;
-  background-size: auto;
+  min-height: 350px;
+  max-width: max-content;
+  background-position: auto;
+  background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
-  background-size: 60% 60%;
-  border-radius: 10px;
+  background-size: 100% 80%;
+  margin-left: 0.75rem;
 }
 .chess-img-2 {
   background-image: url('./photos/chessphoto.jpg');
   min-height: 300px;
   background-repeat: none;
-  background-position: center;
+  background-position: top;
   background-size: auto;
   background-attachment: fixed;
   background-size: 100% 100%;

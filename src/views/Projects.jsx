@@ -4,8 +4,8 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = () => {
 
     return (  
-        <div className="d-flex m-4">
-                <ProjectCard hasLoaded
+        <div className="d-flex m-4 justify-content-center">
+                <ProjectCard
                     title="c^2 coffee"
                     content="A coffee ordering app that seamlessly allows the user to navigate and place their own order and submit for payment. Receipts are also collected for both the user and the app using Stripe.js for mock-payments."
                     tech="TypeScript, ExpressJS, Bootstrap, Stripe, BCrypt, Passport, MySQL"
