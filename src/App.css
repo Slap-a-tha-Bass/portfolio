@@ -110,7 +110,7 @@
 }
 .Contact {
   color: white;
-  font-size: calc(25px + 2vmin);
+  font-size: calc(18px + 2vmin);
   text-decoration: none;
   font-family: monospace;
   margin-left: 0.8rem;
@@ -120,7 +120,7 @@
   transition-delay: 0s;
 }
 .Contact:hover {
-  font-size: calc(30px + 2vmin);
+  font-size: calc(24px + 2vmin);
   text-decoration: none;
   color: white;
   cursor: pointer;
