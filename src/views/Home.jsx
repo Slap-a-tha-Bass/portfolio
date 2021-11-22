@@ -13,7 +13,7 @@ const Home = () => {
     return (
                 <div className="chess-img">
                     <div className="text-white display-5 d-flex align-items-center justify-content-center text-center">
-                        Hi, my name is  <Link to="/aboutme" className="Name"> Corey DeLoach</Link> 
+                        Hi, my name is  <Link to="/aboutme" className="Name mt-1"> Corey DeLoach</Link> 
                     </div>
                     <div className="text-white display-6 text-center pt-3">
                         I am a Full-Stack Software Developer
