@@ -1,19 +1,35 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../App.css';
+import { Link } from "react-router-dom";
+import {
+  LogoButton,
+  LogoFrame,
+  NavBarAcross,
+  NavBarTopLeft,
+  NavBarTopRight,
+  NavButton,
+} from "../styled-components";
+import "../App.css";
 
 const NavBar = () => {
-    return (
-        <div className = "NavBar checkered border-bottom border-dark">
-            <div>
-                <Link to='/' className ="LogoButton mx-4 display-1 shadow px-2">CD</Link>
-            </div>
-            <div className="d-flex ">
-                <Link to='/projects' className ="NavButton mx-4 h4">projects</Link>
-                <Link to='/contact' className ="NavButton mx-4 h4">contact</Link>
-            </div>
-        </div>
-    )
-}
+  return (
+    <>
+      <NavBarAcross>
+        <NavBarTopLeft>
+          <LogoFrame />
+          <Link to="/">
+            <LogoButton />
+          </Link>
+        </NavBarTopLeft>
+        <NavBarTopRight>
+          <Link to="/projects" className="text-decoration-none">
+            <NavButton>projects</NavButton>
+          </Link>
+          <Link to="/contact" className="text-decoration-none">
+            <NavButton>contact</NavButton>
+          </Link>
+        </NavBarTopRight>
+      </NavBarAcross>
+    </>
+  );
+};
 
 export default NavBar;

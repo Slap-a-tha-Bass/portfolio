@@ -1,29 +1,25 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import { HomeButton, HomeDiv, HomeFont, NameFont } from "../styled-components";
 
 const Home = () => {
-    // useEffect(() => {
-    //     fetch('https://cc-coffee.herokuapp.com/')
-    //         .then(() => console.log('Coffee awaken!'));
-    // }, []);
-    // useEffect(() => {
-    //     fetch('https://chirpr-app.herokuapp.com/')
-    //         .then(() => console.log('Chirpr awaken!'));
-    // }, []);
-    return (
-                <div className="chess-img">
-                    <div className="text-white display-5 d-flex align-items-center justify-content-center text-center">
-                        Hi, my name is  <Link to="/aboutme" className="Name mt-1"> Corey DeLoach</Link> 
-                    </div>
-                    <div className="text-white display-6 text-center pt-3">
-                        I am a Full-Stack Software Developer
-                    </div>
-                    <div className="HomeDiv">
-                            <Link className="HomeButton border rounded-pill" to="/projects">view my work</Link>
-                            <Link className="HomeButton border rounded-pill" to="/contact">contact me</Link>
-                    </div>
-                </div>  
-    )
-}
+  return (
+    <div className="chess-img">
+      <HomeFont className="text-center">Hi, my name is</HomeFont>
+      <Link to="/aboutme" className="text-decoration-none">
+        <NameFont>Corey DeLoach</NameFont>
+      </Link>
+      <HomeFont className="text-center">I am a Full-Stack Software Developer</HomeFont>
+      <HomeDiv>
+        <Link to="/projects" className="text-decoration-none">
+          <HomeButton>projects</HomeButton>
+        </Link>
+        <Link to="/contact" className="text-decoration-none">
+          <HomeButton>contact</HomeButton>
+        </Link>
+      </HomeDiv>
+    </div>
+  );
+};
 
 export default Home;
