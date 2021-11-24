@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
-import { CardDiv, CardTitle, CardFooter } from "../styled-components";
+import { CardDiv, CardTitle, CardFooter, CardText } from "../styled-components";
 
 const ProjectCard = ({ title, content, tech, path }) => {
   return (
@@ -9,7 +9,7 @@ const ProjectCard = ({ title, content, tech, path }) => {
         <CardDiv>
           <CardTitle>{title}</CardTitle>
           <Card.Body>
-            <Card.Text>{content}</Card.Text>
+            <CardText>{content}</CardText>
           </Card.Body>
           <CardFooter>{tech}</CardFooter>
         </CardDiv>

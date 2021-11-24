@@ -4,7 +4,8 @@ export const NavBarAcross = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-bottom: 1.5vw solid rgba(60, 60, 60, 0.1);
 `;
 export const NavBarTopLeft = styled.div`
   display: flex;
@@ -85,7 +86,7 @@ export const HomeFont = styled.p`
 export const NameFont = styled.p`
   display: flex;
   justify-content: center;
-  color: rgba(37, 142, 240, 0.65);
+  color: rgba(37, 142, 240, 0.95);
   font-size: 8vw;
   text-decoration: none;
   margin-left: 0.8rem;
@@ -93,11 +94,6 @@ export const NameFont = styled.p`
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  &:hover {
-    cursor: pointer;
-    text-decoration: none;
-    color: rgba(37, 142, 240, 0.95);
-  }
 `;
 export const HomeDiv = styled.div`
   min-height: 4rem;
@@ -127,7 +123,8 @@ export const HomeButton = styled.div`
   transition-delay: 0s;
   &:hover {
     cursor: pointer;
-    color: rgba(240, 240, 240, 0.75);
+    color: rgba(240, 240, 240, 0.95);
+    background-color: rgba(24, 75, 214, 0.95);
   }
 `;
 export const CardDiv = styled.div`
@@ -144,6 +141,9 @@ export const CardTitle = styled.div`
   font-size: 4vw;
   display: flex;
   justify-content: center;
+  color: rgba(240, 240, 240, 0.95);
+`;
+export const CardText = styled.p`
   color: rgba(240, 240, 240, 0.95);
 `;
 export const CardFooter = styled.div`
@@ -171,7 +171,7 @@ export const FootBarDivTop = styled.div`
   align-items: center;
   background-color: rgba(0, 0, 0, 0.01);
   color: rgba(240, 240, 240, 0.55);
-  margin-top: 70vw;
+  margin-top: 20vw;
 `;
 export const FootBarDivBottom = styled.div`
   display: flex;
@@ -191,7 +191,7 @@ export const ResumeLink = styled.div`
   font-size: 2.5vw;
   color: rgba(240, 240, 240, 0.55);
   &:hover {
-    color: rgba(240, 240, 240, 0.95);
+    color: rgba(24, 75, 214, 0.95);
   }
 `;
 export const PDFSizer = styled.div`
@@ -214,5 +214,76 @@ export const HeadshotFrame = styled.div`
   border-left: 45vw solid transparent;
   border-right: 45vw solid transparent;
   border-bottom: 60vw solid rgba(120, 120, 120, 0.55);
+  margin-left: 5vw;
+`;
+export const AboutMeFrame = styled.div`
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
+  border-top: 60vw solid rgba(50, 50, 50, 0.55);
+  margin-left: 5vw;
+  margin-top: 3vw;
+`;
+export const AboutMeDiv = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-decoration: none;
+`;
+export const AboutMeCard = styled.div`
+  background-color: rgba(39, 78, 184, 0.35);
+  color: rgba(240, 240, 240, 0.65);
+  font-size: 2vw;
+  padding: 2vw;
+  box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
+  width: 55vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+`;
+export const AboutMeLi = styled.li`
+  list-style-type: none;
+  border-bottom: 0.1vw solid rgba(39, 78, 184, 0.95);
+  text-decoration: none;
+  background-color: rgba(2, 0, 110, 0.01);
+  color: rgba(240, 240, 240, 0.95);
+`;
+export const TechDiv = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 15vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+`;
+export const TechFrame = styled.div`
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
+  border-bottom: 60vw solid rgba(39, 78, 184, 0.65);
+  margin-left: 5vw;
+`;
+export const TechCard = styled.div`
+  background-color: rgba(60, 60, 60, 0.65);
+  font-size: 2vw;
+  padding: 2vw;
+  box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
+  width: 55vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+`;
+export const ProjectFrame = styled.div`
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
+  border-bottom: 60vw solid rgba(0, 0, 0, 0.15);
   margin-left: 5vw;
 `;
