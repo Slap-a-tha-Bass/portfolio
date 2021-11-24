@@ -12,7 +12,7 @@ import "../App.css";
 const NavBar = () => {
   return (
     <>
-      <NavBarAcross className="bg-dark">
+      <NavBarAcross>
         <NavBarTopLeft>
           <LogoFrame />
           <Link to="/">
