@@ -104,20 +104,22 @@ export const HomeDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 8vw;
+  padding-bottom: 20vw;
 `;
 export const HomeButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(37, 142, 240, 0.95);
-  box-shadow: 5px 10px 5px rgba(240, 240, 240, 0.35);
+  box-shadow: 1vw 1vw 1vw rgba(2, 0, 110, 0.35);
   color: rgba(240, 240, 240, 0.45);
   width: 20vw;
   height: 10vw;
   text-decoration: none;
   font-size: 4vw;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 6vw;
+  margin-right: 6vw;
   margin-top: 1rem;
   transition-property: all;
   transition-duration: 0.3s;
@@ -129,16 +131,14 @@ export const HomeButton = styled.div`
   }
 `;
 export const CardDiv = styled.div`
-  display: flex-wrap;
-  justify-content: center;
-  align-items: center;
   background-color: rgba(37, 142, 240, 0.65);
   color: rgba(240, 240, 240, 0.65);
   font-size: 2vw;
-  margin: 1rem;
-  box-shadow: 5px 10px 5px rgba(240, 240, 240, 0.35);
+  margin: 2vw;
+  box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
   width: 85vw;
-  margin-left: 2rem;
+  margin-left: 7.5vw;
+  margin-right: 10vw;
 `;
 export const CardTitle = styled.div`
   font-size: 4vw;
@@ -164,4 +164,55 @@ export const LinkButton = styled.a`
 `;
 export const FooterText = styled.p`
   font-size: 2vw;
+`;
+export const FootBarDivTop = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.01);
+  color: rgba(240, 240, 240, 0.55);
+  margin-top: 70vw;
+`;
+export const FootBarDivBottom = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.01);
+  color: rgba(240, 240, 240, 0.55);
+  margin-top: 10vw;
+`;
+export const FootBarP = styled.p`
+  font-size: 2.5vw;
+`;
+export const ResumeLink = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+  color: rgba(240, 240, 240, 0.55);
+  &:hover {
+    color: rgba(240, 240, 240, 0.95);
+  }
+`;
+export const PDFSizer = styled.div`
+  font-size: 5vw;
+  margin-left: 1vw;
+`;
+export const HeadshotDiv = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 17vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  border-radius: 20vw;
+`;
+export const HeadshotFrame = styled.div`
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
+  border-bottom: 60vw solid rgba(120, 120, 120, 0.55);
+  margin-left: 5vw;
 `;

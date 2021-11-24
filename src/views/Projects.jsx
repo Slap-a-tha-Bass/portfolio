@@ -5,10 +5,9 @@ import { HomeFont } from "../styled-components";
 
 const Projects = () => {
   return (
-    <div className="chess-img">
+    <div className="chess-img transition">
       <HomeFont>Projects</HomeFont>
-      <div className="d-flex justify-content-center">
-        <Col md={6} className="">
+        <Col md={6}>
           <ProjectCard
             title="c^2 coffee"
             content="A coffee ordering app that seamlessly allows the user to navigate and place their own order and submit for payment. Receipts are also collected for both the user and the app using Stripe.js for mock-payments."
@@ -22,7 +21,6 @@ const Projects = () => {
             path="/projects/chirprapp"
           />
         </Col>
-      </div>
     </div>
   );
 };
