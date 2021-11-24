@@ -1,103 +1,6 @@
-.Contact {
-  color: white;
-  font-size: calc(18px + 2vmin);
-  text-decoration: none;
-  font-family: monospace;
-  margin-left: 0.8rem;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-.Contact:hover {
-  font-size: calc(24px + 2vmin);
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-.Projects {
-  color:black;
-  font-family: monospace;
-  padding-left: 0.5rem;
-}
-.bgcolor {
-  background-color: rgb(245, 245, 245);
-}
-.link {
-  color: black;
-  font-size: 25px;
-  text-decoration: none;
-  padding-left: 2rem;
-}
-.link:hover {
-  color: rgb(120,120,120);
-  font-size: 25px;
-  text-decoration: none;
-  padding-left: 2rem;
-}
-.paragraph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(12px + 2vmin);
-  font-weight: 300;
-  border: rgb(110, 110, 110) 5px inset;
-  border-radius: 0.3rem;
-  color: black;
-  background-color: rgb(61, 61, 61);
-  margin-right: 5.5rem;
-  margin-left: 5.5rem;
-}
-.para-number {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(12px + 2vmin);
-  font-weight: 300;
-  border: rgb(110, 110, 110) 5px inset;
-  border-radius: 0.3rem;
-  color: black;
-  background-color: rgb(61, 61, 61);
-  margin-right: 8.5rem;
-  margin-left: 8.5rem;
-}
-.para-name {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(12px + 2vmin);
-  font-weight: 300;
-  border: rgb(110, 110, 110) 5px inset;
-  border-radius: 0.3rem;
-  color: black;
-  background-color: rgb(61, 61, 61);
-  margin-right: 4rem;
-  margin-left: 4rem;
-}
-.social {
-  color: whitesmoke;
-  font-size: calc(15px + 2vmin);
-  min-height: 3rem;
-  min-width: 3rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.social:hover {
-  background-color: rgb(180,180,180);
-  border-radius: 10px;
-}
+
 .lucida {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.text-color {
-  color: rgb(122, 169, 230);
 }
 .headshot {
   background-image: url('./photos/Headshot2.png');
@@ -109,31 +12,19 @@
 }
 .chess-img {
   background-image: url('./photos/chess-matrix.jpg');
-  height: 100v;
+  height: 100;
   background-position: center;
   background-size: cover;
   background-attachment: absolute;
   background-size: 100% 100%;
-}
-.chess-img-2 {
-  background-image: url('./photos/chessphoto.jpg');
-  min-height: 300px;
-  background-repeat: none;
-  background-position: top;
-  background-size: cover;
-  background-attachment: absolute;
-  background-size: 100% 100%;
-  margin-left: 1.5rem;
 }
 .resume {
   background-image: url('./photos/resume.png');
-  height: 1300px;
+  height: 130vw;
   background-repeat: none;
   background-position: center;
   background-size: cover;
-  background-size: 100% 100%;
   border-radius: 10px;
-  margin-left: 0.5rem;
 }
 .order-page {
   background-image: url('./photos/orderpage.png');

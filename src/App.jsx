@@ -9,11 +9,14 @@ import ChirprApp from "./views/ChirprApp";
 import NavBar from "./components/NavBar";
 import FootBar from "./components/FootBar";
 import RootLayout from "./components/RootLayout";
+import ScrollToTop from './components/ScrollToTop';
+
 import "./App.css";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <RootLayout>
         <NavBar />
         <Switch>

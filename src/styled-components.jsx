@@ -191,7 +191,7 @@ export const ResumeLink = styled.div`
   font-size: 2.5vw;
   color: rgba(240, 240, 240, 0.55);
   &:hover {
-    color: rgba(24, 75, 214, 0.95);
+    color: rgba(39, 78, 184, 0.95);
   }
 `;
 export const PDFSizer = styled.div`
@@ -286,4 +286,18 @@ export const ProjectFrame = styled.div`
   border-right: 45vw solid transparent;
   border-bottom: 60vw solid rgba(0, 0, 0, 0.15);
   margin-left: 5vw;
+`;
+export const SocialLink = styled.div`
+  font-size: 4vw;
+  display: flex;
+  text-align: center;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+`;
+export const Icon = styled.div`
+  color: rgba(240, 240, 240, 0.65);
+  &:hover {
+    color: rgba(39, 78, 184, 0.95);
+  }
 `;
