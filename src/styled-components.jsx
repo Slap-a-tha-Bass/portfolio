@@ -4,7 +4,7 @@ export const NavBarAcross = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0);
 `;
 export const NavBarTopLeft = styled.div`
   display: flex;
@@ -21,8 +21,8 @@ export const NavButton = styled.div`
   color: rgb(200, 200, 200);
   text-decoration: none;
   border-radius: 0.3rem;
-  max-height: 100px;
-  max-width: 100px;
+  height: 10vw;
+  width: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
