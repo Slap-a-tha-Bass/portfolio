@@ -1,7 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
 export const NavBarAcross = styled.div`
-  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
