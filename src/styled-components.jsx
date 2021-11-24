@@ -5,7 +5,6 @@ export const NavBarAcross = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.95);
-  border-bottom: 1.5vw solid rgba(60, 60, 60, 0.1);
 `;
 export const NavBarTopLeft = styled.div`
   display: flex;
