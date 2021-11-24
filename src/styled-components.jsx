@@ -128,3 +128,40 @@ export const HomeButton = styled.div`
     color: rgba(240, 240, 240, 0.75);
   }
 `;
+export const CardDiv = styled.div`
+  display: flex-wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(37, 142, 240, 0.65);
+  color: rgba(240, 240, 240, 0.65);
+  font-size: 2vw;
+  margin: 1rem;
+  box-shadow: 5px 10px 5px rgba(240, 240, 240, 0.35);
+  width: 85vw;
+  margin-left: 2rem;
+`;
+export const CardTitle = styled.div`
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  color: rgba(240, 240, 240, 0.95);
+`;
+export const CardFooter = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: black;
+  margin-left: 1rem;
+`;
+export const FooterLink = styled.div`
+  color: black;
+  font-size: 3vw;
+  text-decoration: none;
+`;
+export const LinkButton = styled.a`
+  text-decoration: none;
+  color: black;
+`;
+export const FooterText = styled.p`
+  font-size: 2vw;
+`;

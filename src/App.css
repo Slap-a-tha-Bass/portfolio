@@ -159,42 +159,38 @@
 }
 .order-page {
   background-image: url('./photos/orderpage.png');
-  height: 400px;
-  width: 325px;
+  height: 60vw;
+  width: 60vw;
   background-repeat: none;
   background-position: center;
   background-size: contain;
-  background-size: 100% 100%;
   border-radius: 10px;
 }
 .subtotal-page {
   background-image: url('./photos/subtotalpage.png');
-  height: 325px;
-  width: 325px;
+  height: 50vw;
+  width: 60vw;
   background-repeat: none;
   background-position: center;
   background-size: contain;
-  background-size: 100% 100%;
   border-radius: 10px;
 }
 .payment-page {
   background-image: url('./photos/paymentpage.png');
-  height: 325px;
-  width: 325px;
+  height: 60vw;
+  width: 60vw;
   background-repeat: none;
   background-position: center;
-  background-size: cover;
-  background-size: 100% 100%;
+  background-size: contain;
   border-radius: 10px;
 }
 .receipturl-page {
   background-image: url('./photos/receipturlpage.png');
-  height: 400px;
-  width: 325px;
+  height: 60vw;
+  width: 60vw;
   background-repeat: none;
   background-position: center;
-  background-size: cover;
-  background-size: 100% 100%;
+  background-size: contain;
   border-radius: 10px;
 }
 .foot {
