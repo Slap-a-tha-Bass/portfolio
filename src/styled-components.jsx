@@ -230,19 +230,19 @@ export const AboutMeDiv = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 5vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   text-decoration: none;
 `;
 export const AboutMeCard = styled.div`
   background-color: rgba(39, 78, 184, 0.35);
   color: rgba(240, 240, 240, 0.65);
-  font-size: 2vw;
+  font-size: 3.5vw;
   padding: 2vw;
   box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
-  width: 55vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 `;
 export const AboutMeLi = styled.li`
   list-style-type: none;
@@ -255,9 +255,9 @@ export const TechDiv = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 15vw;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 `;
 export const TechFrame = styled.div`
   height: 0;
@@ -270,7 +270,7 @@ export const TechFrame = styled.div`
 `;
 export const TechCard = styled.div`
   background-color: rgba(60, 60, 60, 0.65);
-  font-size: 2vw;
+  font-size: 3.5vw;
   padding: 2vw;
   box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
   width: 55vw;
