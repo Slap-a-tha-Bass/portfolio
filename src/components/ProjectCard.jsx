@@ -5,15 +5,15 @@ import { CardDiv, CardTitle, CardFooter, CardText } from "../styled-components";
 
 const ProjectCard = ({ title, content, tech, path }) => {
   return (
+    <CardDiv>
       <Link to={path} className="text-decoration-none">
-        <CardDiv>
-          <CardTitle>{title}</CardTitle>
-          <Card.Body>
-            <CardText>{content}</CardText>
-          </Card.Body>
-          <CardFooter>{tech}</CardFooter>
-        </CardDiv>
+        <CardTitle>{title}</CardTitle>
+        <Card.Body>
+          <CardText>{content}</CardText>
+        </Card.Body>
+        <CardFooter>{tech}</CardFooter>
       </Link>
+    </CardDiv>
   );
 };
 

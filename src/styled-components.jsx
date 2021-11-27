@@ -135,6 +135,9 @@ export const CardDiv = styled.div`
   width: 85vw;
   margin-left: 7.5vw;
   margin-right: 10vw;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 export const CardTitle = styled.div`
   font-size: 4vw;
