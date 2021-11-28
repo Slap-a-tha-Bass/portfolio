@@ -1,7 +1,12 @@
 import React from "react";
+import { ResumeDiv } from "../styled-components";
 
 const Resume = () => {
-  return <div className="resume"></div>;
+  return (
+    <ResumeDiv>
+      <div className="resume"></div>
+    </ResumeDiv>
+  );
 };
 
 export default Resume;

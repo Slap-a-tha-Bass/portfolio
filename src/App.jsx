@@ -6,6 +6,7 @@ import Contact from "./views/Contact";
 import Resume from "./views/Resume";
 import CoffeeApp from "./views/CoffeeApp";
 import ChirprApp from "./views/ChirprApp";
+import About from "./views/About";
 import NavBar from "./components/NavBar";
 import FootBar from "./components/FootBar";
 import RootLayout from "./components/RootLayout";
@@ -34,6 +35,9 @@ const App = () => {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/about">
+            <About />
           </Route>
           <Route exact path="/resume">
             <Resume />

@@ -1,10 +1,12 @@
 import styled, { keyframes } from "styled-components";
 
 export const NavBarAcross = styled.div`
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(0, 0, 0);
+  z-index: 1;
 `;
 export const NavBarTopLeft = styled.div`
   display: flex;
@@ -18,6 +20,7 @@ export const NavBarTopRight = styled.div`
   margin-right: 2rem;
 `;
 export const NavButton = styled.div`
+  position: sticky;
   color: rgb(200, 200, 200);
   text-decoration: none;
   border-radius: 0.3rem;
@@ -75,24 +78,34 @@ export const LogoFrame = styled.div`
   margin-top: 1rem;
   margin-left: 1rem;
 `;
-export const HomeFont = styled.p`
+export const HomeFont = styled.span`
   color: rgba(240, 240, 240, 0.65);
-  font-size: 6vw;
+  font-size: 3vw;
   display: flex;
   justify-content: center;
   align-items: center;
+
 `;
 export const NameFont = styled.p`
   display: flex;
   justify-content: center;
   color: rgba(37, 142, 240, 0.95);
-  font-size: 8vw;
+  font-size: 5vw;
   text-decoration: none;
   margin-left: 0.8rem;
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
+`;
+export const WorkFont = styled.span`
+  color: rgba(240, 240, 240, 0.65);
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+  margin-bottom: 10vw;
 `;
 export const HomeDiv = styled.div`
   min-height: 4rem;
@@ -140,7 +153,7 @@ export const CardDiv = styled.div`
   }
 `;
 export const CardTitle = styled.div`
-  font-size: 4vw;
+  font-size: 3vw;
   display: flex;
   justify-content: center;
   color: rgba(240, 240, 240, 0.95);
@@ -167,13 +180,18 @@ export const LinkButton = styled.a`
 export const FooterText = styled.p`
   font-size: 2vw;
 `;
+export const FootBarAcross = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0);
+`;
 export const FootBarDivTop = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.01);
   color: rgba(240, 240, 240, 0.55);
-  margin-top: 20vw;
 `;
 export const FootBarDivBottom = styled.div`
   display: flex;
@@ -181,33 +199,32 @@ export const FootBarDivBottom = styled.div`
   align-items: center;
   background-color: rgba(0, 0, 0, 0.01);
   color: rgba(240, 240, 240, 0.55);
-  margin-top: 10vw;
 `;
 export const FootBarP = styled.p`
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 `;
 export const ResumeLink = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   color: rgba(240, 240, 240, 0.55);
   &:hover {
     color: rgba(39, 78, 184, 0.95);
   }
 `;
 export const PDFSizer = styled.div`
-  font-size: 5vw;
+  font-size: 2vw;
   margin-left: 1vw;
 `;
 export const HeadshotDiv = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 17vw;
-  margin-left: 30vw;
-  margin-right: 30vw;
-  border-radius: 20vw;
+  margin-top: 5vw;
+  margin-left: 33vw;
+  margin-right: 33vw;
+  border-radius: 30vw;
 `;
 export const HeadshotFrame = styled.div`
   height: 0;
@@ -217,6 +234,13 @@ export const HeadshotFrame = styled.div`
   border-right: 45vw solid transparent;
   border-bottom: 60vw solid rgba(120, 120, 120, 0.55);
   margin-left: 5vw;
+`;
+export const HeadshotCard = styled.div`
+  position: absolute;
+  background-color: rgba(39, 78, 184, 0.35);
+  height: 60vw;
+  width: 60vw;
+  margin-left: 20vw;
 `;
 export const AboutMeFrame = styled.div`
   height: 0;
@@ -240,10 +264,9 @@ export const AboutMeDiv = styled.div`
 export const AboutMeCard = styled.div`
   background-color: rgba(39, 78, 184, 0.35);
   color: rgba(240, 240, 240, 0.65);
-  font-size: 3.5vw;
+  font-size: 2vw;
   padding: 2vw;
   box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
-  width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
 `;
@@ -266,17 +289,16 @@ export const TechFrame = styled.div`
   height: 0;
   width: 0;
   position: absolute;
-  border-left: 45vw solid transparent;
-  border-right: 45vw solid transparent;
-  border-bottom: 60vw solid rgba(39, 78, 184, 0.65);
-  margin-left: 5vw;
+  border-left: 30vw solid transparent;
+  border-right: 30vw solid transparent;
+  border-bottom: 45vw solid rgba(39, 78, 184, 0.65);
+  margin-left: 20vw;
 `;
 export const TechCard = styled.div`
   background-color: rgba(60, 60, 60, 0.65);
-  font-size: 3.5vw;
+  font-size: 2vw;
   padding: 2vw;
   box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
-  width: 55vw;
   margin-left: 10vw;
   margin-right: 10vw;
 `;
@@ -290,12 +312,12 @@ export const ProjectFrame = styled.div`
   margin-left: 5vw;
 `;
 export const SocialLink = styled.div`
-  font-size: 4vw;
+  font-size: 5vw;
   display: flex;
   text-align: center;
   margin-top: 1vw;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
 `;
 export const Icon = styled.div`
   color: rgba(240, 240, 240, 0.65);
@@ -303,3 +325,6 @@ export const Icon = styled.div`
     color: rgba(39, 78, 184, 0.95);
   }
 `;
+export const ResumeDiv = styled.div`
+  margin-top: 10vw;
+`

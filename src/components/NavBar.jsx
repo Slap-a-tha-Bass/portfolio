@@ -26,6 +26,9 @@ const NavBar = () => {
           <Link to="/contact" className="text-decoration-none">
             <NavButton>contact</NavButton>
           </Link>
+          <Link to="/about" className="text-decoration-none">
+            <NavButton>about</NavButton>
+          </Link>
         </NavBarTopRight>
       </NavBarAcross>
     </>

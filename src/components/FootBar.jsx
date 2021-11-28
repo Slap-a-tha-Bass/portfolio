@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
+  FootBarAcross,
   FootBarDivBottom,
   FootBarDivTop,
   FootBarP,
@@ -10,11 +11,10 @@ import {
 
 const FootBar = () => {
   return (
-    <div className="chess-img">
+    <FootBarAcross>
       <FootBarDivTop>
         <Link to="/resume" className="text-decoration-none">
           <ResumeLink>
-            Resume
             <PDFSizer>
               <i className="bi bi-file-earmark-pdf-fill"></i>
             </PDFSizer>
@@ -25,7 +25,7 @@ const FootBar = () => {
         <FootBarP>Copyright @deloach.dev 2021.</FootBarP>
         <FootBarP>All rights reserved.</FootBarP>
       </FootBarDivBottom>
-    </div>
+    </FootBarAcross>
   );
 };
 

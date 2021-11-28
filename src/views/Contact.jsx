@@ -6,6 +6,7 @@ import {
   AboutMeFrame,
   CardText,
   CardTitle,
+  HomeFont,
   Icon,
   SocialLink,
 } from "../styled-components";
@@ -54,15 +55,15 @@ const Contact = () => {
           </Card.Body>
           <Card.Body className="d-inline text-center">
             <CardText>or email me @</CardText>
-            <SocialLink className="d-flex justify-content-center">
+            <HomeFont>
                 cdeloach16@gmail.com
-            </SocialLink>
+            </HomeFont>
           </Card.Body>
           <Card.Body className="d-inline text-center">
             <CardText>if you play chess, challenge me on chess.com</CardText>
-            <SocialLink className="d-flex justify-content-center">
+            <HomeFont>
                 @Slap-a-tha-Bass
-            </SocialLink>
+            </HomeFont>
           </Card.Body>
         </AboutMeCard>
       </AboutMeDiv>
