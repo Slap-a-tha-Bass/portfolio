@@ -1,46 +1,45 @@
+import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 
-export const NavBarAcross = styled.div`
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0);
-  z-index: 1;
+export const NavDiv = styled.div`
+  margin-left: 55vw;
 `;
-export const NavBarTopLeft = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-`;
-export const NavBarTopRight = styled.div`
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-right: 2rem;
-`;
-export const NavButton = styled.div`
+export const NavButton = styled(Link)`
   position: sticky;
   color: rgb(200, 200, 200);
   text-decoration: none;
   border-radius: 0.3rem;
-  height: 10vw;
-  width: 10vw;
+  height: 12vh;
+  width: 14vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 400;
-  font-size: large;
-  padding: 3rem;
+  font-weight: 300;
+  font-size: 3vh;
+  padding: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
   &:hover {
+    text-decoration: none;
     cursor: pointer;
     font-weight: bold;
     background-color: rgba(37, 142, 240, 0.65);
+    color: white;
   }
+`;
+export const ToggleButton = styled.div`
+  outline: none;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: none;
+  margin: none;
+  color: rgba(37, 142, 240, 0.65);
+  background-color: black;
 `;
 export const rotate = keyframes`
     from {
@@ -77,21 +76,22 @@ export const LogoFrame = styled.div`
   border-bottom: 5rem solid rgba(37, 142, 240, 0.65);
   margin-top: 1rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
 `;
 export const HomeFont = styled.span`
   color: rgba(240, 240, 240, 0.65);
-  font-size: 3vw;
+  font-size: calc(1rem + 1.5vw);
   display: flex;
   justify-content: center;
   align-items: center;
-
 `;
 export const NameFont = styled.p`
   display: flex;
   justify-content: center;
   color: rgba(37, 142, 240, 0.95);
-  font-size: 5vw;
+  font-size: calc(1.5rem + 1.5vw);
   text-decoration: none;
+  margin-top: 0.5rem;
   margin-left: 0.8rem;
   transition-property: all;
   transition-duration: 0.3s;
@@ -100,44 +100,12 @@ export const NameFont = styled.p`
 `;
 export const WorkFont = styled.span`
   color: rgba(240, 240, 240, 0.65);
-  font-size: 3vw;
+  font-size: calc(1.5rem + 1.5vw);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2vw;
   margin-bottom: 10vw;
-`;
-export const HomeDiv = styled.div`
-  min-height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 8vw;
-  padding-bottom: 20vw;
-`;
-export const HomeButton = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(37, 142, 240, 0.95);
-  box-shadow: 1vw 1vw 1vw rgba(2, 0, 110, 0.35);
-  color: rgba(240, 240, 240, 0.45);
-  width: 20vw;
-  height: 10vw;
-  text-decoration: none;
-  font-size: 4vw;
-  margin-left: 6vw;
-  margin-right: 6vw;
-  margin-top: 1rem;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  &:hover {
-    cursor: pointer;
-    color: rgba(240, 240, 240, 0.95);
-    background-color: rgba(24, 75, 214, 0.95);
-  }
 `;
 export const CardDiv = styled.div`
   background-color: rgba(37, 142, 240, 0.65);
@@ -153,20 +121,22 @@ export const CardDiv = styled.div`
   }
 `;
 export const CardTitle = styled.div`
-  font-size: 3vw;
+  font-size: calc(1.5rem + 1.5vw);
   display: flex;
   justify-content: center;
   color: rgba(240, 240, 240, 0.95);
 `;
 export const CardText = styled.p`
   color: rgba(240, 240, 240, 0.95);
+  font-size: calc(1rem + 1.5vw)
 `;
 export const CardFooter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  color: black;
+  color: rgba(240, 240, 240, 0.95);
   margin-left: 1rem;
+  font-size: calc(1rem + 1.5vw);
 `;
 export const FooterLink = styled.div`
   color: black;
@@ -250,13 +220,11 @@ export const AboutMeFrame = styled.div`
   border-right: 45vw solid transparent;
   border-top: 60vw solid rgba(50, 50, 50, 0.55);
   margin-left: 5vw;
-  margin-top: 3vw;
 `;
 export const AboutMeDiv = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 5vw;
   margin-left: 5vw;
   margin-right: 5vw;
   text-decoration: none;
@@ -264,7 +232,7 @@ export const AboutMeDiv = styled.div`
 export const AboutMeCard = styled.div`
   background-color: rgba(39, 78, 184, 0.35);
   color: rgba(240, 240, 240, 0.65);
-  font-size: 2vw;
+  font-size: calc(1.5rem + 1.5vw);
   padding: 2vw;
   box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
   margin-left: 5vw;
@@ -296,7 +264,7 @@ export const TechFrame = styled.div`
 `;
 export const TechCard = styled.div`
   background-color: rgba(60, 60, 60, 0.65);
-  font-size: 2vw;
+  font-size: calc(1.5rem + 1.5vw);
   padding: 2vw;
   box-shadow: 5px 10px 5px rgba(2, 0, 110, 0.35);
   margin-left: 10vw;
@@ -312,7 +280,7 @@ export const ProjectFrame = styled.div`
   margin-left: 5vw;
 `;
 export const SocialLink = styled.div`
-  font-size: 5vw;
+  font-size: 5vh;
   display: flex;
   text-align: center;
   margin-top: 1vw;
@@ -327,4 +295,15 @@ export const Icon = styled.div`
 `;
 export const ResumeDiv = styled.div`
   margin-top: 10vw;
-`
+`;
+export const ContactFont = styled.span`
+  color: rgba(240, 240, 240, 0.65);
+  font-size: calc(1.5rem + 1.5vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const BackgroundColor = styled.div`
+  background-color: black !important;
+`;

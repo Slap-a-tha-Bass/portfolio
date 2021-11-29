@@ -6,17 +6,17 @@ import {
   AboutMeFrame,
   CardText,
   CardTitle,
-  HomeFont,
+  ContactFont,
   Icon,
   SocialLink,
 } from "../styled-components";
 
 const Contact = () => {
   return (
-    <div className="chess-img transition">
+    <div className="chess-img">
       <AboutMeFrame />
       <AboutMeDiv>
-        <AboutMeCard>
+        <AboutMeCard className="transition">
           <CardTitle>Contact me</CardTitle>
           <Card.Body className="d-flex justify-content-center">
             <SocialLink>
@@ -55,15 +55,15 @@ const Contact = () => {
           </Card.Body>
           <Card.Body className="d-inline text-center">
             <CardText>or email me @</CardText>
-            <HomeFont>
+            <ContactFont>
                 cdeloach16@gmail.com
-            </HomeFont>
+            </ContactFont>
           </Card.Body>
           <Card.Body className="d-inline text-center">
             <CardText>if you play chess, challenge me on chess.com</CardText>
-            <HomeFont>
+            <ContactFont>
                 @Slap-a-tha-Bass
-            </HomeFont>
+            </ContactFont>
           </Card.Body>
         </AboutMeCard>
       </AboutMeDiv>

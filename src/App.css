@@ -1,4 +1,6 @@
-
+.bg-color {
+  background-color: black;
+}
 .lucida {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -16,7 +18,16 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: absolute;
-  padding-top: 10vw;
+  padding-top: 15vh;
+  background-color: black;
+}
+.chess-img-2 {
+  background-image: url('./photos/chess-matrix.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: relative;
+  height: 25vw;
   background-color: black;
 }
 .resume {

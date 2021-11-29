@@ -16,7 +16,7 @@ const CoffeeApp = () => {
       <div className="chess-img">
         <CardDiv>
           <CardTitle>c^2 coffee</CardTitle>
-          <Card.Body>
+          <Card.Body style = {{fontSize: 'calc(1rem + 1.5vw)'}}>
             <ul className="list-group">
               <li className="list-group-item" style={{backgroundColor: 'rgba(37, 142, 240, 0.25)', color: 'rgba(240, 240, 240, 0.95)'}}>
                 Sole creator and engineer of this full-stack application,

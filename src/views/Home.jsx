@@ -8,7 +8,7 @@ const Home = () => {
       <div className="chess-img">
         <HomeFont className="text-center transition">
           Hi, my name is
-          <Link to="/aboutme" className="text-decoration-none d-inline">
+          <Link to="/about" className="text-decoration-none ">
             <NameFont>Corey DeLoach</NameFont>
           </Link>
         </HomeFont>
