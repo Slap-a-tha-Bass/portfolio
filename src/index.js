@@ -5,7 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { HashRouter } from "react-router-dom";
 
 Promise.all([
   fetch("https://cc-coffee.herokuapp.com/"),
@@ -14,9 +13,7 @@ Promise.all([
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
       <App />
-    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
