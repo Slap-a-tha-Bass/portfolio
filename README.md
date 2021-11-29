@@ -1,3 +1,10 @@
-This is just a quick front-end portfolio page.
+I dove into this project because I wanted people to have a glimpse of who I am.
 
-I used React, CSS, and Bootstrap.
+My love for chess was used as inspiration.
+
+Tech Used:
+ReactJS
+Styled-components
+React-bootstrap
+Bootstrap-icons
+CSS

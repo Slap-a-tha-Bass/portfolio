@@ -4,7 +4,7 @@ import styled, { keyframes } from "styled-components";
 export const NavDiv = styled.div`
   margin-left: 55vw;
 `;
-export const NavButton = styled(Link)`
+export const NavLinkCustom = styled.div`
   position: sticky;
   color: rgb(200, 200, 200);
   text-decoration: none;
@@ -128,7 +128,7 @@ export const CardTitle = styled.div`
 `;
 export const CardText = styled.p`
   color: rgba(240, 240, 240, 0.95);
-  font-size: calc(1rem + 1.5vw)
+  font-size: calc(1rem + 1.5vw);
 `;
 export const CardFooter = styled.div`
   display: flex;
