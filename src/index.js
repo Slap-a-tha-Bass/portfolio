@@ -1,21 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { HashRouter } from "react-router-dom";
 
 Promise.all([
-  fetch('https://cc-coffee.herokuapp.com/'),
-  fetch('https://chirpr-app.herokuapp.com/')
-]).then(() => console.log('Awake!'))
+  fetch("https://cc-coffee.herokuapp.com/"),
+  fetch("https://chirpr-app.herokuapp.com/"),
+]).then(() => console.log("Awake!"));
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
