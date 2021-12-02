@@ -56,13 +56,7 @@ const Contact = () => {
           <Card.Body className="d-inline text-center">
             <CardText>or email me @</CardText>
             <ContactFont>
-                cdeloach16@gmail.com
-            </ContactFont>
-          </Card.Body>
-          <Card.Body className="d-inline text-center">
-            <CardText>if you play chess, challenge me on chess.com</CardText>
-            <ContactFont>
-                @Slap-a-tha-Bass
+                <a href="mailto:cdeloach16@gmail.com">cdeloach16@gmail.com</a>
             </ContactFont>
           </Card.Body>
         </AboutMeCard>

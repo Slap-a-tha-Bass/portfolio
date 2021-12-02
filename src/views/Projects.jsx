@@ -1,12 +1,14 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import { Col } from "react-bootstrap";
-import { HomeFont } from "../styled-components";
+import { HomeFont, HomeDiv } from "../styled-components";
 
 const Projects = () => {
   return (
     <div className="chess-img">
-      <HomeFont>Projects</HomeFont>
+      <HomeDiv>
+        <HomeFont>Projects</HomeFont>
+      </HomeDiv>
       <Col md={6} className="transition">
         <ProjectCard
           title="c^2 coffee"

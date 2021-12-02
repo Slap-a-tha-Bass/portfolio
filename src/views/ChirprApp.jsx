@@ -21,7 +21,7 @@ const ChirprApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(37, 142, 240, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
                 }}
               >
@@ -30,7 +30,7 @@ const ChirprApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(37, 142, 240, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
                 }}
               >
@@ -40,7 +40,7 @@ const ChirprApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(37, 142, 240, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
                 }}
               >
@@ -50,7 +50,7 @@ const ChirprApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(37, 142, 240, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
                 }}
               >
@@ -59,7 +59,7 @@ const ChirprApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(37, 142, 240, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
                 }}
               >
@@ -69,17 +69,17 @@ const ChirprApp = () => {
             </ul>
           </Card.Body>
           <CardFooter>
-            <Link to="/projects">
-              <FooterLink style={{ color: "rgba(240, 240, 240, 0.95)" }}>
+            <Link to="/projects" className="my-4">
+              <FooterLink style={{ color: "rgba(37, 142, 240, 0.95)" }}>
                 <i className="bi bi-arrow-left-circle-fill"></i>
               </FooterLink>
             </Link>
             <FooterLink>
-              <FooterText style={{ color: "rgba(240, 240, 240, 0.95)" }}>
-                Deployed project:
+              <FooterText style={{ color: "rgba(37, 142, 240, 0.95)" }}>
+                Deployed:
               </FooterText>
               <LinkButton
-                style={{ color: "rgba(240, 240, 240, 0.95)" }}
+                style={{ color: "rgba(37, 142, 240, 0.95)" }}
                 href="https://chirpr-app.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -88,11 +88,11 @@ const ChirprApp = () => {
               </LinkButton>
             </FooterLink>
             <FooterLink>
-              <FooterText style={{ color: "rgba(240, 240, 240, 0.95)" }}>
-                Link to repo:
+              <FooterText style={{ color: "rgba(37, 142, 240, 0.95)" }}>
+                Github:
               </FooterText>
               <LinkButton
-                style={{ color: "rgba(240, 240, 240, 0.95)" }}
+                style={{ color: "rgba(37, 142, 240, 0.95)" }}
                 href="https://www.github.com/Slap-a-tha-Bass/chirprDB"
                 target="_blank"
                 rel="noopener noreferrer"
