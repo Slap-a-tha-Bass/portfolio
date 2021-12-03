@@ -7,24 +7,62 @@ import {
   NavLinkCustom,
   NavDiv,
   ToggleButton,
+  SocialLink,
+  Icon,
+  SocialLinkWrapper,
 } from "../styled-components";
 
 const NavBar = () => {
   return (
     <Navbar
-      className="bg-color"
+      className="bg-color px-2"
       bg="bg-dark"
       sticky="top"
       collapseOnSelect
       expand="lg"
     >
-      <Navbar.Brand>
+      <Navbar.Brand className="transition">
         <Link to="/">
           {/* Custom CSS button */}
           <LogoFrame />
           <LogoButton />
         </Link>
       </Navbar.Brand>
+      <SocialLinkWrapper className="transition">
+        <SocialLink>
+          <a
+            href="http://www.github.com/Slap-a-tha-Bass"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon>
+              <i className="bi bi-github"></i>
+            </Icon>
+          </a>
+        </SocialLink>
+        <SocialLink>
+          <a
+            href="http://www.linkedin.com/in/corey-deloach-061180124"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon>
+              <i className="bi bi-linkedin"></i>
+            </Icon>
+          </a>
+        </SocialLink>
+        <SocialLink>
+          <a
+            href="http://www.twitter.com/Slap_a_tha_Bass"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon>
+              <i className="bi bi-twitter"></i>
+            </Icon>
+          </a>
+        </SocialLink>
+      </SocialLinkWrapper>
       {/* Use a toggle below the breakpoint */}
       <Navbar.Toggle>
         {/* Custom Bootstrap Icon image for coloring Toggle Button */}
@@ -34,24 +72,19 @@ const NavBar = () => {
       </Navbar.Toggle>
       {/* Collapse wrapper, observes the breakpoint */}
       <Navbar.Collapse id="basic-navbar-nav">
-        <NavDiv className="d-flex justify-content-end">
-        <Nav className="ml-auto">
-          <Nav.Item>
-            <Nav.Link eventKey={1} as={Link} to="/projects">
-              <NavLinkCustom>projects</NavLinkCustom>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={2} as={Link} to="/contact">
-              <NavLinkCustom>contact</NavLinkCustom>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={2} as={Link} to="/about">
-              <NavLinkCustom>about</NavLinkCustom>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
+        <NavDiv className="transition">
+          <Nav className="ml-auto">
+            <Nav.Item>
+              <Nav.Link eventKey={1} as={Link} to="/projects">
+                <NavLinkCustom>projects</NavLinkCustom>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey={2} as={Link} to="/about">
+                <NavLinkCustom>about</NavLinkCustom>
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
         </NavDiv>
       </Navbar.Collapse>
     </Navbar>

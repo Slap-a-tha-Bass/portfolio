@@ -1,9 +1,6 @@
 .bg-color {
   background-color: black;
 }
-.lucida {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .headshot {
   background-image: url('./photos/Headshot2.png');
   height: 35vw;
@@ -29,6 +26,56 @@
   background-attachment: relative;
   height: 25vw;
   background-color: black;
+}
+.tech1 {
+  background-image: url('./photos/react-1.svg');
+  height: 4vw;
+  width: 4vw;
+  margin-left: 2vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tech2 {
+  background-image: url('./photos/typescript-1.svg');
+  height: 4vw;
+  width: 4vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tech3 {
+  background-image: url('./photos/node-1.png');
+  height: 4vw;
+  width: 4vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4vw;
+}
+.tech4 {
+  background-image: url('./photos/Bootstrap-1.png');
+  height: 4vw;
+  width: 4vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tech5 {
+  background-image: url('./photos/mysql-1.png');
+  height: 4vw;
+  width: 5vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tech6 {
+  background-image: url('./photos/stripe-1.jpg');
+  height: 4vw;
+  width: 4vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .resume {
   background-image: url('./photos/resume.png');

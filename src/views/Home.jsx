@@ -1,24 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { WorkFont, HomeFont, NameFont, HomeDiv } from "../styled-components";
+import HomeCard from "../components/HomeCard";
 
 const Home = () => {
   return (
     <>
-      <div className="chess-img">
-        <HomeDiv>
-          <HomeFont className="transition">
-            Hi, my name is
-            <Link to="/about" className="text-decoration-none">
-              <NameFont>Corey DeLoach</NameFont>
-            </Link>
-          </HomeFont>
-        </HomeDiv>
-        <HomeDiv>
-          <WorkFont className="text-center transition">
-            I build Full-Stack React applications  
-          </WorkFont>
-        </HomeDiv>
+      <div className="bg-color">
+        <HomeCard 
+        title="Hi, my name is Corey DeLoach"
+        content="I build full stack apps using React"
+        link="Contact me"
+        path="/contact"
+        />
       </div>
     </>
   );

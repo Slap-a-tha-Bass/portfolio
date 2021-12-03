@@ -15,7 +15,7 @@ import {
 } from "../styled-components";
 const About = () => {
   return (
-    <div className="chess-img">
+    <div className="bg-color">
       <HeadshotCard />
       <HeadshotFrame />
       <HeadshotDiv className="headshot transition" />
@@ -42,13 +42,14 @@ const About = () => {
           <Card.Body>
             <ul className="p-0">
               <AboutMeLi>TypeScript</AboutMeLi>
-              <AboutMeLi>NodeJS</AboutMeLi>
+              <AboutMeLi>ExpressJS</AboutMeLi>
               <AboutMeLi>Styled Components</AboutMeLi>
               <AboutMeLi>React-Bootstrap</AboutMeLi>
               <AboutMeLi>MySQL</AboutMeLi>
-              <AboutMeLi>Heroku</AboutMeLi>
+              <AboutMeLi>MonogDB</AboutMeLi>
+              <AboutMeLi>KeystoneJS</AboutMeLi>
+              <AboutMeLi>GraphQL</AboutMeLi>
               <AboutMeLi>Digital Ocean</AboutMeLi>
-              <AboutMeLi>Netlify</AboutMeLi>
             </ul>
           </Card.Body>
         </TechCard>
