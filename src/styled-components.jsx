@@ -97,6 +97,7 @@ export const NameFont = styled.p`
 export const WorkFont = styled.span`
   color: rgba(240, 240, 240, 0.85);
   font-size: calc(1.5rem + 1.5vw);
+  margin-bottom: 5vw;
 `;
 export const CardDiv = styled.div`
   background-color: rgba(39, 78, 184, 0.35);
@@ -178,11 +179,11 @@ export const ResumeLink = styled.div`
   }
 `;
 export const PDFSizer = styled.div`
-  font-size: calc(3rem + 1.5vw);
+  font-size: calc(1.5rem + 1.5vw);
   margin-left: 1vw;
 `;
 export const SeeResumeSizer = styled.div`
-  font-size: calc(0.7rem + 1.5vw);
+  font-size: calc(0.5rem + 1.5vw);
   margin-left: 1vw;
 `;
 export const HeadshotDiv = styled.div`

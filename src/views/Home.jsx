@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { WorkFont, HomeFont, NameFont, HomeDiv } from "../styled-components";
-import HomeCard from "../components/HomeCard";
 
 const Home = () => {
   return (
@@ -17,18 +16,9 @@ const Home = () => {
         </HomeDiv>
         <HomeDiv>
           <WorkFont className="text-center transition">
-            I am a Full-Stack Software Developer
+            I build Full-Stack React applications  
           </WorkFont>
         </HomeDiv>
-        <HomeCard
-          title="What I can deliver"
-          li1="Combining latest technology with clear documentation"
-          li2="Building full-stack usable apps for technology companies"
-          li3="Implementing UI/UX design for customer satisfaction"
-          li4="Developing skills to become a mentor for new talent"
-          link="Contact me"
-          path="/contact"
-        />
       </div>
     </>
   );
