@@ -109,7 +109,7 @@ const CoffeeApp = () => {
                 Deployed:
               </FooterText>
               <LinkButton
-                style={{ color: "rgba(240,240,240,0.9)" }}
+                style={{ color: "rgba(240,240,240,0.9)", textDecoration: "underline" }}
                 href="https://cc-coffee-app.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"

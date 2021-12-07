@@ -164,10 +164,14 @@ export const HomeCardText = styled.span`
   font-size: calc(1.7rem + 1.5vw);
 `;
 export const FooterLink = styled.div`
-  color: black;
+  color: whitesmoke;
   font-size: calc(1.5rem + 1.5vw);
   text-decoration: none;
   margin-left: 1vw;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
 `;
 export const LinkButton = styled.a`
   text-decoration: none;

@@ -13,6 +13,7 @@ import RootLayout from "./components/RootLayout";
 import ScrollToTop from './components/ScrollToTop';
 
 import "./App.css";
+import ChessApp from "./views/ChessApp";
 
 const App = () => {
   return (
@@ -32,6 +33,9 @@ const App = () => {
           </Route>
           <Route exact path="/projects/chirprapp">
             <ChirprApp />
+          </Route>
+          <Route exact path="/projects/chessapp">
+            <ChessApp />
           </Route>
           <Route exact path="/contact">
             <Contact />

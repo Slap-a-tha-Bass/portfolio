@@ -11,9 +11,18 @@ const Projects = () => {
       </HomeDiv>
       <Col md={6} className="transition">
         <ProjectCard
+          title="starry knight chess"
+          content="A non-functional chess app built from using only Styled-components. Loved the way this one turned out! Would love to collaborate and make it fully functional one day."
+          path="/projects/chessapp"
+          fewTech1
+        />
+      </Col>
+      <Col md={6} className="transition">
+        <ProjectCard
           title="c^2 coffee"
           content="A coffee ordering app that seamlessly allows the user to navigate and place their own order and submit for payment. Receipts are also collected for both the user and the app using Stripe.js for mock-payments."
           path="/projects/coffeeapp"
+          allTech
         />
       </Col>
       <Col md={6} className="transition">
@@ -21,6 +30,7 @@ const Projects = () => {
           title="chirpr app"
           content="A social app that lets users post an updated status. Users have to sign in using Passport.js and can then view all other 'chirps.' They can edit or delete their content as well. Users can also donate to the site using Stripe.js."
           path="/projects/chirprapp"
+          allTech
         />
       </Col>
     </div>

@@ -77,6 +77,14 @@
   background-position: center;
   background-size: cover;
 }
+.tech7 {
+  background-image: url('./photos/sc-1.png');
+  height: 4vw;
+  width: 4vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .resume {
   background-image: url('./photos/resume.png');
   height: 120vw;

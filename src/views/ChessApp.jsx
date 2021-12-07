@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import {
@@ -10,12 +10,12 @@ import {
   LinkButton,
 } from "../styled-components";
 
-const ChirprApp = () => {
-  return (
-    <>
-      <div className="d-flex justify-content-center px-4 bg-color">
+const ChessApp = () => {
+    return (
+        <>
+           <div className="bg-color">
         <CardDiv className="chess-img">
-          <CardTitle>chirpr app</CardTitle>
+          <CardTitle>starry knight chess</CardTitle>
           <Card.Body style={{ fontSize: "calc(1rem + 1.5vw)" }}>
             <ul className="list-group">
               <li
@@ -23,53 +23,51 @@ const ChirprApp = () => {
                 style={{
                   backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
-                  fontWeight: '200'
+                  fontWeight: "200",
                 }}
               >
-                Sole creator and engineer of this full-stack application
+                Sole creator and engineer of this front-end application,
+                inspired by my love and frustration for chess
               </li>
               <li
                 className="list-group-item"
                 style={{
                   backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
-                  fontWeight: '200'
+                  fontWeight: "200",
                 }}
               >
-                Clients have ability to register or login with Passport
-                Authentication with encrypted passwords using BCrypt
+                Purely created with Styled-components CSS. Hardly any functionality.
               </li>
               <li
                 className="list-group-item"
                 style={{
                   backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
-                  fontWeight: '200'
+                  fontWeight: "200",
                 }}
               >
-                Users have the ability to send status updates using CRUD REST
-                api functions
+                Each character is made from scratch using shapes and stacking them on top of each other repetitively. 
               </li>
               <li
                 className="list-group-item"
                 style={{
                   backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
-                  fontWeight: '200'
+                  fontWeight: "200",
                 }}
               >
-                Users can also Donate to the website with a Stripe integration
+                I have a problem on this app with scaling down to the phone, due to the way I built the chess pieces, so could use some extra work long-term.
               </li>
               <li
                 className="list-group-item"
                 style={{
                   backgroundColor: "rgba(39, 78, 184, 0.25)",
                   color: "rgba(240, 240, 240, 0.95)",
-                  fontWeight: '200'
+                  fontWeight: "200",
                 }}
               >
-                Frontend uses TypeScript and Bootstrap; Backend uses ExpressJS
-                and MySQL
+                Future updates to functionality are also possible with moving the pieces around on the board. 
               </li>
             </ul>
           </Card.Body>
@@ -85,11 +83,11 @@ const ChirprApp = () => {
               </FooterText>
               <LinkButton
                 style={{ color: "rgba(240,240,240,0.9)", textDecoration: "underline" }}
-                href="https://chirpr-app.herokuapp.com"
+                href="https://chess-app-frjk7.ondigitalocean.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                chirpr app
+                starry knight chess
               </LinkButton>
             </FooterLink>
             <FooterLink>
@@ -98,7 +96,7 @@ const ChirprApp = () => {
               </FooterText>
               <LinkButton
                 style={{ color: "rgba(240,240,240,0.9)" }}
-                href="https://www.github.com/Slap-a-tha-Bass/chirprDB"
+                href="https://www.github.com/Slap-a-tha-Bass/chess-app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -107,47 +105,9 @@ const ChirprApp = () => {
             </FooterLink>
           </CardFooter>
         </CardDiv>
-      </div>
-      <div className="chess-img">
-      <CardDiv>
-          <CardTitle className="card-header text-center text-light">
-            Order Page
-          </CardTitle>
-          <Card.Body className="d-flex justify-content-center">
-            <div className="order-page"></div>
-          </Card.Body>
-        </CardDiv>
-        <CardDiv>
-          <CardTitle className="card-header text-center text-light">
-            Subtotal Page
-          </CardTitle>
-          <Card.Body className="d-flex justify-content-center">
-            <div className="subtotal-page"></div>
-          </Card.Body>
-        </CardDiv>
-      </div>
-      <div className="chess-img">
-        <CardDiv>
-          <CardTitle className="card-header text-center text-light">
-            <CardTitle>Payment Page</CardTitle>
-          </CardTitle>
-          <Card.Body className="d-flex justify-content-center">
-            <div className="payment-page"></div>
-          </Card.Body>
-        </CardDiv>
-      </div>
-      <div className="chess-img">
-        <CardDiv>
-          <CardTitle className="card-header text-center text-light">
-            <CardTitle>Receipt URL Page</CardTitle>
-          </CardTitle>
-          <Card.Body className="d-flex justify-content-center">
-            <div className="receipturl-page"></div>
-          </Card.Body>
-        </CardDiv>
-      </div>
-    </>
-  );
-};
+      </div> 
+        </>
+    )
+}
 
-export default ChirprApp;
+export default ChessApp;
