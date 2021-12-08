@@ -57,16 +57,6 @@ const ChessApp = () => {
                   fontWeight: "200",
                 }}
               >
-                I have a problem on this app with scaling down to the phone, due to the way I built the chess pieces, so could use some extra work long-term.
-              </li>
-              <li
-                className="list-group-item"
-                style={{
-                  backgroundColor: "rgba(39, 78, 184, 0.25)",
-                  color: "rgba(240, 240, 240, 0.95)",
-                  fontWeight: "200",
-                }}
-              >
                 Future updates to functionality are also possible with moving the pieces around on the board. 
               </li>
             </ul>
