@@ -26,6 +26,8 @@ const About = () => {
           <Card.Body>
             <ul className="p-0">
               <AboutMeLi>Born and raised in Birmingham, AL</AboutMeLi>
+              <AboutMeLi>Couldn't tell you what an array was 2 years ago</AboutMeLi>
+              <AboutMeLi>Now I'm building full-stack apps, CRAZY!</AboutMeLi>
               <AboutMeLi>B.S. in Biology from Birmingham-Southern</AboutMeLi>
               <AboutMeLi>Previously in chemical sales for 7 years</AboutMeLi>
               <AboutMeLi>Daily chess player on chess.com</AboutMeLi>

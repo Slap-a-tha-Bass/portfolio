@@ -21,7 +21,7 @@ const ChessApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(39, 78, 184, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.5)",
                   color: "rgba(240, 240, 240, 0.95)",
                   fontWeight: "200",
                 }}
@@ -32,7 +32,7 @@ const ChessApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(39, 78, 184, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.5)",
                   color: "rgba(240, 240, 240, 0.95)",
                   fontWeight: "200",
                 }}
@@ -42,7 +42,7 @@ const ChessApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(39, 78, 184, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.5)",
                   color: "rgba(240, 240, 240, 0.95)",
                   fontWeight: "200",
                 }}
@@ -52,7 +52,7 @@ const ChessApp = () => {
               <li
                 className="list-group-item"
                 style={{
-                  backgroundColor: "rgba(39, 78, 184, 0.25)",
+                  backgroundColor: "rgba(39, 78, 184, 0.5)",
                   color: "rgba(240, 240, 240, 0.95)",
                   fontWeight: "200",
                 }}

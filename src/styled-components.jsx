@@ -40,8 +40,9 @@ export const SocialLink = styled.div`
   font-size: calc(1rem + 1.5vw);
   display: flex;
   text-align: center;
-  margin-top: 1vw;
-  margin-left: 3vw;
+  margin-top: calc(0.5rem + 0.5vw);
+  margin-left: calc(1rem + 1vw);
+  margin-right: calc(1rem + 1vw);
 `;
 export const Icon = styled.div`
   color: rgba(240, 240, 240, 0.65);
@@ -51,11 +52,11 @@ export const Icon = styled.div`
 `;
 export const ToggleButton = styled.div`
   outline: none;
-  width: 3rem;
-  height: 2rem;
+  width: calc(2rem + 1vw);
+  height: calc(1rem + 1vw);
   border-radius: 0.5rem;
   padding: none;
-  margin: none;
+  margin-top: calc(2rem + 1vw);
   color: rgba(37, 142, 240, 0.65);
   background-color: black;
 `;
@@ -74,11 +75,11 @@ export const LogoButton = styled.div`
   color: rgba(240, 240, 240, 0.6);
   font-family: monospace;
   font-size: 1rem;
-  border-left: 2rem solid transparent;
-  border-right: 2rem solid transparent;
-  border-top: 4rem solid rgba(240, 240, 240, 0.65);
-  margin-left: 4rem;
-  margin-top: 1.5rem;
+  border-left: calc(1rem + 1vw) solid transparent;
+  border-right: calc(1rem + 1vw) solid transparent;
+  border-top: calc(2rem + 1vw) solid rgba(240, 240, 240, 0.65);
+  margin-left: calc(2rem + 1vw);
+  margin-top: calc(0.5rem + 1vw);
   text-decoration: none;
   transition-property: all;
   transition-duration: 0s;
@@ -90,12 +91,12 @@ export const LogoFrame = styled.div`
   position: absolute;
   height: 0;
   width: 0;
-  border-left: 4rem solid transparent;
-  border-right: 4rem solid transparent;
-  border-bottom: 5rem solid rgba(39, 78, 184, 0.5);
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
+  border-left: calc(2rem + 1vw) solid transparent;
+  border-right: calc(2rem + 1vw) solid transparent;
+  border-bottom: calc(2.5rem + 1vw) solid rgba(39, 78, 184, 0.5);
+  margin-top: calc(0.5rem + 0.5vw);
+  margin-left: calc(1rem + 1vw);
+  margin-bottom: 0;
 `;
 // Home page styles
 export const HomeDiv = styled.div`
@@ -176,6 +177,8 @@ export const FooterLink = styled.div`
 export const LinkButton = styled.a`
   text-decoration: none;
   color: black;
+  font-size: calc(1rem + 1vw);
+  font-weight: 300;
 `;
 // Footer styles
 export const FooterText = styled.p`
@@ -271,7 +274,7 @@ export const AboutMeDiv = styled.div`
   text-decoration: none;
 `;
 export const AboutMeCard = styled.div`
-  background-color: rgba(39, 78, 184, 0.35);
+  background-color: rgba(39, 78, 184, 0.5);
   color: rgba(240, 240, 240, 0.65);
   font-size: calc(1rem + 1.5vw);
   font-weight: 200;
@@ -306,7 +309,7 @@ export const TechFrame = styled.div`
   margin-left: 5vw;
 `;
 export const TechCard = styled.div`
-  background-color: rgba(60, 60, 60, 0.65);
+  background-color: rgba(60, 60, 60, 1);
   font-size: calc(1rem + 1.5vw);
   font-weight: 200;
   padding: 2vw;

@@ -42,7 +42,7 @@ const NavBar = () => {
         </SocialLink>
         <SocialLink>
           <a
-            href="http://www.linkedin.com/in/corey-deloach-061180124"
+            href="http://www.linkedin.com/in/corey-deloach"
             target="_blank"
             rel="noopener noreferrer"
           >
