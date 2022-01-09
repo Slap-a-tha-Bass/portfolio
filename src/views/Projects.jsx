@@ -11,6 +11,14 @@ const Projects = () => {
       </HomeDiv>
       <Col md={6} className="transition">
         <ProjectCard
+          title="periodic table"
+          content="A custom build API that fetches information on each element. The landing page displays all of the basic info about each element. You can navigate to a more details page upon clicking the element you want to research. Best if on larger screens (turn phone sideways for best view)."
+          path="/projects/periodictableapp"
+          fewTech1
+        />
+      </Col>
+      <Col md={6} className="transition">
+        <ProjectCard
           title="starry knight chess"
           content="A non-functional chess app built from using only Styled-components. Loved the way this one turned out! Would love to collaborate and make it fully functional one day."
           path="/projects/chessapp"

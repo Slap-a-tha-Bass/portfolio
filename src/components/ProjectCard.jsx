@@ -23,6 +23,7 @@ const ProjectCard = ({ title, content, path, allTech, fewTech1 }) => {
           {fewTech1 && <div className="tech1"></div>}
           {fewTech1 && <div className="tech7"></div>}
           </CardFooter>
+      <p className="text-decoration-underline text-light">More details here</p>
       </Link>
     </CardDiv>
   );

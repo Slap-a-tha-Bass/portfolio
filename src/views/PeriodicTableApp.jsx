@@ -9,13 +9,12 @@ import {
   FooterText,
   LinkButton,
 } from "../styled-components";
-
-const ChessApp = () => {
+const PeriodicTableApp = () => {
   return (
     <>
       <div className="bg-color">
         <CardDiv className="chess-img">
-          <CardTitle>starry knight chess</CardTitle>
+          <CardTitle>periodic table</CardTitle>
           <Card.Body style={{ fontSize: "calc(1rem + 1.5vw)" }}>
             <ul className="list-group">
               <li
@@ -27,7 +26,7 @@ const ChessApp = () => {
                 }}
               >
                 Sole creator and engineer of this front-end application,
-                inspired by my love and frustration for chess
+                inspired by science
               </li>
               <li
                 className="list-group-item"
@@ -37,8 +36,8 @@ const ChessApp = () => {
                   fontWeight: "200",
                 }}
               >
-                Purely created with Styled-components CSS. Hardly any
-                functionality.
+                Custom API built to map through all of the elements and display
+                information about each element.
               </li>
               <li
                 className="list-group-item"
@@ -48,8 +47,8 @@ const ChessApp = () => {
                   fontWeight: "200",
                 }}
               >
-                Each character is made from scratch using shapes and stacking
-                them on top of each other repetitively.
+                Navigate to more details about the element by clicking on the
+                element card.
               </li>
               <li
                 className="list-group-item"
@@ -59,8 +58,9 @@ const ChessApp = () => {
                   fontWeight: "200",
                 }}
               >
-                Future updates to functionality are also possible with moving
-                the pieces around on the board.
+                Used only styled-components for all of the styling, utilizing
+                the "props" functionality to create multi-colored properties for
+                each element.
               </li>
             </ul>
           </Card.Body>
@@ -79,11 +79,11 @@ const ChessApp = () => {
                   color: "rgba(240,240,240,0.9)",
                   textDecoration: "underline",
                 }}
-                href="https://chess-app-frjk7.ondigitalocean.app/"
+                href="https://periodic-table-vpd7l.ondigitalocean.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                starry knight chess
+                periodic table
               </LinkButton>
             </FooterLink>
             <FooterLink>
@@ -92,7 +92,7 @@ const ChessApp = () => {
               </FooterText>
               <LinkButton
                 style={{ color: "rgba(240,240,240,0.9)" }}
-                href="https://www.github.com/Slap-a-tha-Bass/chess-app"
+                href="https://www.github.com/Slap-a-tha-Bass/periodic-table"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,18 +105,26 @@ const ChessApp = () => {
       <div className="chess-img">
         <CardDiv>
           <CardTitle className="card-header text-center text-light">
-            Chess Board View
+            Table View 1
           </CardTitle>
           <Card.Body className="d-flex justify-content-center">
-            <div className="starry-knight-chess"></div>
+            <div className="periodic-table-1"></div>
           </Card.Body>
         </CardDiv>
         <CardDiv>
           <CardTitle className="card-header text-center text-light">
-            Notes
+            Table View 2
           </CardTitle>
           <Card.Body className="d-flex justify-content-center">
-            <div className="starry-knight-chess-notes"></div>
+            <div className="periodic-table-2"></div>
+          </Card.Body>
+        </CardDiv>
+        <CardDiv>
+          <CardTitle className="card-header text-center text-light">
+           About Element View
+          </CardTitle>
+          <Card.Body className="d-flex justify-content-center">
+            <div className="periodic-table-about"></div>
           </Card.Body>
         </CardDiv>
       </div>
@@ -124,4 +132,4 @@ const ChessApp = () => {
   );
 };
 
-export default ChessApp;
+export default PeriodicTableApp;

@@ -86,10 +86,10 @@
   background-size: cover;
 }
 .resume {
-  background-image: url('./photos/resume.jpg');
+  background-image: url('./photos/resume2022.png');
   height: 120vw;
   background-repeat: none;
-  background-position: center;
+  background-position: top;
   background-size: contain;
 }
 .order-page {
@@ -125,6 +125,123 @@
   width: 60vw;
   background-repeat: none;
   background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.periodic-table-1 {
+  background-image: url('./photos/periodic-table.png');
+  height: 60vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: left;
+  background-size: cover;
+  border-radius: 10px;
+}
+.periodic-table-2 {
+  background-image: url('./photos/periodic-table.png');
+  height: 60vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: right;
+  background-size: cover;
+  border-radius: 10px;
+}
+.periodic-table-about {
+  background-image: url('./photos/periodic-table-about.png');
+  height: 40vw;
+  width: 50vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.starry-knight-chess {
+  background-image: url('./photos/starry-knight-chess.png');
+  height: 60vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: right;
+  background-size: cover;
+  border-radius: 10px;
+}
+.starry-knight-chess-notes {
+  background-image: url('./photos/starry-knight-chess-notes.png');
+  height: 30vw;
+  width: 55vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-login {
+  background-image: url('./photos/chirpr-login.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-login-invalid {
+  background-image: url('./photos/chirpr-login-invalid.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-register {
+  background-image: url('./photos/chirpr-register.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-register-success {
+  background-image: url('./photos/chripr-register-success.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-profile {
+  background-image: url('./photos/chripr-profile.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: top;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-post {
+  background-image: url('./photos/chirpr-post.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: top;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-chirps {
+  background-image: url('./photos/chripr-chirps.png');
+  height: 60vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: top;
+  background-size: contain;
+  border-radius: 10px;
+}
+.chirpr-donate {
+  background-image: url('./photos/chirpr-donate.png');
+  height: 40vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: top;
   background-size: contain;
   border-radius: 10px;
 }
