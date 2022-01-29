@@ -85,6 +85,14 @@
   background-position: center;
   background-size: cover;
 }
+.tech8 {
+  background-image: url('./photos/nextjs.png');
+  height: 4vw;
+  width: 4vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .resume {
   background-image: url('./photos/resume.png');
   height: 120vw;
@@ -122,6 +130,105 @@
 .receipturl-page {
   background-image: url('./photos/receipturlpage.png');
   height: 60vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.prosci-dark {
+  background-image: url('./photos/prosci-dark.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.prosci-light {
+  background-image: url('./photos/prosci-light.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.prosci-collapsed {
+  background-image: url('./photos/prosci-collapsed.png');
+  height: 55vw;
+  width: 25vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.prosci-menu {
+  background-image: url('./photos/prosci-menu.png');
+  height: 55vw;
+  width: 25vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-uscurrent {
+  background-image: url('./photos/covid-uscurrent.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-current-graph1 {
+  background-image: url('./photos/covid-current-graph1.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-current-graph2 {
+  background-image: url('./photos/covid-current-graph2.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-current-table {
+  background-image: url('./photos/covid-current-table.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-ushistoric {
+  background-image: url('./photos/covid-ushistoric.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-historic-graph1 {
+  background-image: url('./photos/covid-historic-graph1.png');
+  height: 30vw;
+  width: 60vw;
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+.covid-historic-graph2 {
+  background-image: url('./photos/covid-historic-graph2.png');
+  height: 30vw;
   width: 60vw;
   background-repeat: none;
   background-position: center;

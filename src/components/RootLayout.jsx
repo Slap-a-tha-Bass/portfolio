@@ -5,7 +5,7 @@ const RootLayout = ({ children }) => {
     console.log('%c corey@deloach.dev', 'border: 1px solid white; padding: 10px; border-radius: 5px; color: white; background-color: rgb(40,70,180); font-size: 20px; font-family: monospace');
     return (
         <main className="bgcolor">
-            <section className="row d-flex justify-content-center">
+            <section className="row">
                 {children}
             </section>
         </main>

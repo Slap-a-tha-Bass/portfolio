@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import { CardDiv, CardTitle, CardFooter, CardText } from "../styled-components";
 
-const ProjectCard = ({ title, content, path, allTech, fewTech1 }) => {
+const ProjectCard = ({ title, content, path, allTech, fewTech1, fewTech2 }) => {
   return (
-    <CardDiv className="chess-img">
+    <CardDiv className="chess-img p-2">
       <Link to={path} className="text-decoration-none">
         <CardTitle>{title}</CardTitle>
         <Card.Body>
@@ -22,6 +22,8 @@ const ProjectCard = ({ title, content, path, allTech, fewTech1 }) => {
           {/* Just a couple of techs used VOL 1 */}
           {fewTech1 && <div className="tech1"></div>}
           {fewTech1 && <div className="tech7"></div>}
+          {fewTech2 && <div className="tech8"></div>}
+          {fewTech2 && <div className="tech7"></div>}
           </CardFooter>
       <p className="text-decoration-underline text-light">More details here</p>
       </Link>

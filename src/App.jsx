@@ -15,6 +15,8 @@ import ScrollToTop from './components/ScrollToTop';
 import "./App.css";
 import ChessApp from "./views/ChessApp";
 import PeriodicTableApp from "./views/PeriodicTableApp";
+import ProsciLab from "./views/ProsciLab";
+import CovidTracker from "./views/CovidTracker";
 
 const App = () => {
   return (
@@ -40,6 +42,12 @@ const App = () => {
           </Route>
           <Route exact path="/projects/periodictableapp">
             <PeriodicTableApp />
+          </Route>
+          <Route exact path="/projects/proscilab">
+            <ProsciLab />
+          </Route>
+          <Route exact path="/projects/covidtracker">
+            <CovidTracker />
           </Route>
           <Route exact path="/contact">
             <Contact />
