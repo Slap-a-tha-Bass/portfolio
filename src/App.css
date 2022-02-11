@@ -94,9 +94,9 @@
   background-size: cover;
 }
 .resume {
-  background-image: url('./photos/resume.png');
-  height: 120vw;
-  background-repeat: none;
+  background-image: url('./photos/CD_FullStack.png');
+  height: 100vh;
+  background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
 }
